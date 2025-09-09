@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - portal1
+  - portal2
+  - portal3
+  - portal4
+  - portal5
+  - portal6
+  - portal7
+  - portal8
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fondo
+    uniqueID: 3885236969
+    locked: 0
+  - name: Caminos
+    uniqueID: 2470250965
+    locked: 0
+  - name: Props
+    uniqueID: 914636667
+    locked: 0
+  - name: Player
+    uniqueID: 3289789049
+    locked: 0
+  - name: NPC
+    uniqueID: 1171443793
+    locked: 0
+  - name: Objetos
+    uniqueID: 3688066951
+    locked: 0
