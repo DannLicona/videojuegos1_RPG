@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovPlayerDuke : MonoBehaviour
+public class MovPlayerCanela : MonoBehaviour
 {
     private Vector2 dirMov;
     public float velMov;

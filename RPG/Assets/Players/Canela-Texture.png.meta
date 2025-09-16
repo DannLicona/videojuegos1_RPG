@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2145359aeefa04740a2177aae525643e
+guid: cccc1ba724d1dd54cbe3c717778758f5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,11 +43,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,160 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites Canela_0
+      name: Canela-Texture_0
       rect:
         serializedVersion: 2
-        x: 137
-        y: 1086
-        width: 198
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a914d5a2b8db49d4490d8e49d1b77440
-      internalID: -1278004288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites Canela_1
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 1086
-        width: 199
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f954635b423aa144e90716a4bba385bf
-      internalID: 416308330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites Canela_2
-      rect:
-        serializedVersion: 2
-        x: 712
-        y: 1086
-        width: 205
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 389302cd8c9e296449151fdc5ca45978
-      internalID: -437548658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites Canela_3
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 701
-        width: 204
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10613c30304547b42afb5b0ad73f0760
-      internalID: 332765945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites Canela_4
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 702
-        width: 207
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b43b82b65cd34754986370c169622423
-      internalID: -465881319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites Canela_5
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 702
-        width: 215
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 906b9bb6535b9c345812a177930af350
-      internalID: 817979704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites Canela_6
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 337
-        width: 199
-        height: 303
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9e279b62599fb5478ac1347b0c0fc8d
-      internalID: -1874363901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites Canela_7
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 337
+        x: 46
+        y: 769
         width: 197
-        height: 303
+        height: 297
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +107,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99693ae5b3cf99846bb48633d5986403
-      internalID: 917605069
+      spriteID: fd8e60b4d355179498a79fe3b22a246d
+      internalID: 628718520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites Canela_8
+      name: Canela-Texture_1
       rect:
         serializedVersion: 2
-        x: 704
-        y: 337
-        width: 206
-        height: 304
+        x: 320
+        y: 769
+        width: 198
+        height: 297
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abf7532948dc6e746b6025ece7355a12
-      internalID: -949754794
+      spriteID: f183db8a3d3e6674eaa54661f1ed6259
+      internalID: 2146851465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites Canela_9
+      name: Canela-Texture_2
       rect:
         serializedVersion: 2
-        x: 129
-        y: 0
-        width: 185
-        height: 280
+        x: 622
+        y: 771
+        width: 184
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9849debb701995244b1abda2373fdf43
-      internalID: -1526447083
+      spriteID: f4e60b06624924f4a8fa4f555204746d
+      internalID: -304262710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites Canela_10
+      name: Canela-Texture_3
       rect:
         serializedVersion: 2
-        x: 417
-        y: 0
-        width: 194
-        height: 279
+        x: 880
+        y: 768
+        width: 205
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14bb9193eeefd514ca75cb431428d78d
-      internalID: -1602582994
+      spriteID: e6f828e8749769544b85e3dc1eba2edc
+      internalID: -228360716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites Canela_11
+      name: Canela-Texture_4
       rect:
         serializedVersion: 2
-        x: 707
-        y: 0
+        x: 39
+        y: 387
         width: 201
-        height: 279
+        height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,8 +191,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d51ac6008d23c5419fe58c03c7641df
-      internalID: -649396269
+      spriteID: 1ce5c95c97a648a4791c90853f33c136
+      internalID: -440019228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canela-Texture_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 387
+        width: 206
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659fae04b4bcccd4093a4579c3fce1cc
+      internalID: -669542223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canela-Texture_6
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 390
+        width: 206
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6752b04129b2c4289b5de200f536ab
+      internalID: 2008254897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canela-Texture_7
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 388
+        width: 203
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df59c751ce5aea344aacdd322051bd5c
+      internalID: 1445012371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canela-Texture_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 23
+        width: 196
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2165d30d82d01f649835bc7159a4d983
+      internalID: 1338125602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canela-Texture_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 23
+        width: 194
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8afdfa76ae70a448b59a119873dd46
+      internalID: 978111975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canela-Texture_10
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 16
+        width: 199
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5c4ad1890fb014682680d9367e2ffc
+      internalID: 1497785718
       vertices: []
       indices: 
       edges: []
@@ -355,18 +334,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprites Canela_0: -1278004288
-      Sprites Canela_1: 416308330
-      Sprites Canela_10: -1602582994
-      Sprites Canela_11: -649396269
-      Sprites Canela_2: -437548658
-      Sprites Canela_3: 332765945
-      Sprites Canela_4: -465881319
-      Sprites Canela_5: 817979704
-      Sprites Canela_6: -1874363901
-      Sprites Canela_7: 917605069
-      Sprites Canela_8: -949754794
-      Sprites Canela_9: -1526447083
+      Canela-Texture_0: 628718520
+      Canela-Texture_1: 2146851465
+      Canela-Texture_10: 1497785718
+      Canela-Texture_2: -304262710
+      Canela-Texture_3: -228360716
+      Canela-Texture_4: -440019228
+      Canela-Texture_5: -669542223
+      Canela-Texture_6: 2008254897
+      Canela-Texture_7: 1445012371
+      Canela-Texture_8: 1338125602
+      Canela-Texture_9: 978111975
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
