@@ -12,6 +12,18 @@ TagManager:
   - portal6
   - portal7
   - portal8
+  - portal9
+  - portal10
+  - portal11
+  - portal12
+  - portals1
+  - portals2
+  - portals3
+  - portals4
+  - portalsr1
+  - portalsr2
+  - portalsr3
+  - portalsr4
   layers:
   - Default
   - TransparentFX
