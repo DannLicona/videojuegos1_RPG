@@ -25,6 +25,8 @@ TagManager:
   - portalsr3
   - portalsr4
   - Player2
+  - enemigo
+  - limites
   layers:
   - Default
   - TransparentFX
