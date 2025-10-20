@@ -16,7 +16,7 @@ public class MovCamara : MonoBehaviour
         }
         if (obj.gameObject.tag == "portal2")
         {
-            Vector3 posicioncamara = new Vector3(0.19f, -19.79f, -10);
+            Vector3 posicioncamara = new Vector3(-0.25f, -20.27f, -10);
             camara.transform.position = posicioncamara;
             Vector3 posicionPlayer = new Vector3(-0.45f, -14, 0);
             this.transform.position = posicionPlayer;
@@ -65,14 +65,14 @@ public class MovCamara : MonoBehaviour
         }
         if (obj.gameObject.tag == "portal9")
         {
-            Vector3 posicioncamara = new Vector3(0.19f, -19.79f, -10);
+            Vector3 posicioncamara = new Vector3(-0.25f, -20.27f, -10);
             camara.transform.position = posicioncamara;
             Vector3 posicionPlayer = new Vector3(11.24f, -16.37f, 0);
             this.transform.position = posicionPlayer;
         }
         if (obj.gameObject.tag == "portal10")
         {
-            Vector3 posicioncamara = new Vector3(0.19f, -19.79f, -10);
+            Vector3 posicioncamara = new Vector3(-0.25f, -20.27f, -10);
             camara.transform.position = posicioncamara;
             Vector3 posicionPlayer = new Vector3(11.24f, -22.89f, 0);
             this.transform.position = posicionPlayer;
@@ -96,30 +96,30 @@ public class MovCamara : MonoBehaviour
         //Portales salones
         if (obj.gameObject.tag == "portals1")
         {
-            Vector3 posicioncamara = new Vector3(59.98f, 29.82f, -10);
+            Vector3 posicioncamara = new Vector3(59.63f, 29.82f, -10);
             camara.transform.position = posicioncamara;
-            Vector3 posicionPlayer = new Vector3(61.03f, 24.17f, 0);
+            Vector3 posicionPlayer = new Vector3(60f, 24.28f, 0);
             this.transform.position = posicionPlayer;
         }
         if (obj.gameObject.tag == "portals2")
         {
-            Vector3 posicioncamara = new Vector3(90, 29.82f, -10);
+            Vector3 posicioncamara = new Vector3(90.65f, 29.82f, -10);
             camara.transform.position = posicioncamara;
-            Vector3 posicionPlayer = new Vector3(91.01f, 24.17f, 0);
+            Vector3 posicionPlayer = new Vector3(91.01f, 24.28f, 0);
             this.transform.position = posicionPlayer;
         }
         if (obj.gameObject.tag == "portals3")
         {
-            Vector3 posicioncamara = new Vector3(120, 29.82f, -10);
+            Vector3 posicioncamara = new Vector3(120.64f, 29.82f, -10);
             camara.transform.position = posicioncamara;
-            Vector3 posicionPlayer = new Vector3(121.08f, 24.17f, 0);
+            Vector3 posicionPlayer = new Vector3(121.08f, 24.28f, 0);
             this.transform.position = posicionPlayer;
         }
         if (obj.gameObject.tag == "portals4")
         {
-            Vector3 posicioncamara = new Vector3(150, 29.82f, -10);
+            Vector3 posicioncamara = new Vector3(150.65f, 29.82f, -10);
             camara.transform.position = posicioncamara;
-            Vector3 posicionPlayer = new Vector3(150.99f, 24.17f, 0);
+            Vector3 posicionPlayer = new Vector3(150.99f, 24.28f, 0);
             this.transform.position = posicionPlayer;
         }
 

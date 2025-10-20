@@ -24,6 +24,7 @@ TagManager:
   - portalsr2
   - portalsr3
   - portalsr4
+  - Player2
   layers:
   - Default
   - TransparentFX
@@ -78,4 +79,7 @@ TagManager:
     locked: 0
   - name: Objetos
     uniqueID: 3688066951
+    locked: 0
+  - name: Enemigo
+    uniqueID: 1072907661
     locked: 0
