@@ -44758,6 +44758,7 @@ GameObject:
   - component: {fileID: 932158633}
   - component: {fileID: 932158627}
   - component: {fileID: 932158632}
+  - component: {fileID: 932158634}
   m_Layer: 0
   m_Name: Enemigo
   m_TagString: Untagged
@@ -44931,6 +44932,27 @@ MonoBehaviour:
   - {fileID: 186986773}
   - {fileID: 1007093510}
   distanciaDeteccionPlayer: 5
+--- !u!95 &932158634
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932158626}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9aaea614faf4dda44bf2a1dd30b25f7d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &936479007
 GameObject:
   m_ObjectHideFlags: 0
