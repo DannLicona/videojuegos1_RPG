@@ -43,7 +43,7 @@ public class Enemigo : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("No se encontró ningún jugador activo en la escena.");
+            Debug.LogWarning("No se encontrï¿½ ningï¿½n jugador activo en la escena.");
         }
     }
 
@@ -115,14 +115,14 @@ public class Enemigo : MonoBehaviour
         if (obj.tag == "Player" || obj.tag == "Player2") {
             tiempoSigAtaque = frecAtaque;
             iniciaConteo = Time.time;
-            obj.transform.GetComponentInChildren<VidasPlayer>().TomarDaño(1);
+            obj.transform.GetComponentInChildren<VidasPlayer>().TomarDaÃ±o(1);
         }
         
     }
 
-    public void TomarDaño(int daño)
+    public void TomarDaÃ±o(int daÃ±o)
     {
-        vidaEnemigo -= daño;
+        vidaEnemigo -= daÃ±o;
         if (vidaEnemigo <= 0)
         {
             Destroy(gameObject);
