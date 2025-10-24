@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 2514245}
   m_Layer: 0
   m_Name: PortalesSal4
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 7557937}
   m_Layer: 0
   m_Name: Colision (12)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 13060543}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 15974167}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 16295788}
   m_Layer: 0
   m_Name: Banca4 (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -851,7 +851,7 @@ GameObject:
   - component: {fileID: 28438904}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -993,7 +993,7 @@ GameObject:
   - component: {fileID: 29739175}
   m_Layer: 0
   m_Name: Colision (15)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1162,7 +1162,7 @@ GameObject:
   - component: {fileID: 37281911}
   m_Layer: 0
   m_Name: Banca 1 (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1197,7 +1197,7 @@ GameObject:
   - component: {fileID: 40451200}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1255,7 +1255,7 @@ GameObject:
   - component: {fileID: 43753386}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1425,7 +1425,7 @@ GameObject:
   - component: {fileID: 50954981}
   m_Layer: 0
   m_Name: Colision (34)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1471,216 +1471,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.88, y: 0.5}
   m_EdgeRadius: 0
---- !u!1 &52602869
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 52602877}
-  - component: {fileID: 52602876}
-  - component: {fileID: 52602875}
-  - component: {fileID: 52602874}
-  - component: {fileID: 52602873}
-  - component: {fileID: 52602872}
-  - component: {fileID: 52602871}
-  - component: {fileID: 52602870}
-  m_Layer: 0
-  m_Name: Enemigo (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &52602870
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52602869}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9aaea614faf4dda44bf2a1dd30b25f7d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!195 &52602871
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52602869}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 1.0649999
-  m_Speed: 2
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2.36
-  m_BaseOffset: 1.18
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!50 &52602872
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52602869}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &52602873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52602869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28b875ad44480384f98238677c4c02cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje: {fileID: 576802541}
-  puntosRuta:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
-  distanciaDeteccionPlayer: 5
---- !u!114 &52602874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52602869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28b875ad44480384f98238677c4c02cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje: {fileID: 1736705335}
-  puntosRuta:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
-  distanciaDeteccionPlayer: 5
---- !u!70 &52602875
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52602869}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2.1299999, y: 2.36}
-  m_Direction: 0
---- !u!212 &52602876
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52602869}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1072907661
-  m_SortingLayer: 7
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 1885993944, guid: 61298bb829b3acf4f9803d9b6bbeda0f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &52602877
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52602869}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.18, y: -2.23, z: 0}
-  m_LocalScale: {x: 0.7978125, y: 0.76962894, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &52929717
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,7 +1522,7 @@ GameObject:
   - component: {fileID: 55547154}
   m_Layer: 0
   m_Name: Colision (36)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1790,7 +1580,7 @@ GameObject:
   - component: {fileID: 57025261}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1874,7 +1664,7 @@ GameObject:
   - component: {fileID: 57042134}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1958,7 +1748,7 @@ GameObject:
   - component: {fileID: 58869014}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2073,7 +1863,7 @@ GameObject:
   - component: {fileID: 65033417}
   m_Layer: 0
   m_Name: Escritorio2 (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2106,9 +1896,10 @@ GameObject:
   - component: {fileID: 65081879}
   - component: {fileID: 65081881}
   - component: {fileID: 65081880}
+  - component: {fileID: 65081882}
   m_Layer: 0
   m_Name: ParedLatIzq (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2207,6 +1998,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &65081882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65081878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &66276985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,7 +2138,7 @@ GameObject:
   - component: {fileID: 70910555}
   m_Layer: 0
   m_Name: Arbusto (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2380,7 +2187,7 @@ GameObject:
   - component: {fileID: 76590324}
   m_Layer: 0
   m_Name: Gabinete2 (9)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2415,7 +2222,7 @@ GameObject:
   - component: {fileID: 77708382}
   m_Layer: 0
   m_Name: ParedSupIzq (9)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2583,9 +2390,10 @@ GameObject:
   - component: {fileID: 89629931}
   - component: {fileID: 89629930}
   - component: {fileID: 89629929}
+  - component: {fileID: 89629932}
   m_Layer: 0
   m_Name: ParedSupIzq (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2684,6 +2492,22 @@ Transform:
   m_Father: {fileID: 423582066}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &89629932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89629928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &105905064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2696,7 +2520,7 @@ GameObject:
   - component: {fileID: 105905066}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2780,7 +2604,7 @@ GameObject:
   - component: {fileID: 107499363}
   m_Layer: 0
   m_Name: Arbusto (7)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2829,7 +2653,7 @@ GameObject:
   - component: {fileID: 107865244}
   m_Layer: 0
   m_Name: Colision (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5315,7 +5139,7 @@ Transform:
   - {fileID: 847695956}
   - {fileID: 637707699}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &119353785
 GameObject:
@@ -5397,7 +5221,7 @@ Transform:
   - {fileID: 728910667}
   - {fileID: 1898898074}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &123438442
 GameObject:
@@ -5445,7 +5269,7 @@ GameObject:
   - component: {fileID: 125473440}
   m_Layer: 0
   m_Name: ParedLatDer
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5640,7 +5464,7 @@ GameObject:
   - component: {fileID: 129931238}
   m_Layer: 0
   m_Name: Colision (20)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5734,7 +5558,7 @@ GameObject:
   - component: {fileID: 133332184}
   m_Layer: 0
   m_Name: Arbol (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5783,7 +5607,7 @@ GameObject:
   - component: {fileID: 148875575}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5866,7 +5690,7 @@ GameObject:
   - component: {fileID: 151544573}
   m_Layer: 0
   m_Name: Escritorio1 (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6024,7 +5848,7 @@ GameObject:
   - component: {fileID: 169765115}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9859,7 +9683,7 @@ GameObject:
   - component: {fileID: 176716404}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9989,37 +9813,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &186986772
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 186986773}
-  m_Layer: 0
-  m_Name: Punto4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &186986773
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 186986772}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.09, y: -6.66, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2041636870}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &188019166
 GameObject:
   m_ObjectHideFlags: 0
@@ -12140,7 +11933,7 @@ GameObject:
   - component: {fileID: 200208321}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12480,7 +12273,7 @@ GameObject:
   - component: {fileID: 217232759}
   m_Layer: 0
   m_Name: Escritorio1 8
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12514,7 +12307,7 @@ GameObject:
   - component: {fileID: 220912934}
   m_Layer: 0
   m_Name: Colision (17)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12655,9 +12448,10 @@ GameObject:
   - component: {fileID: 224619313}
   - component: {fileID: 224619315}
   - component: {fileID: 224619314}
+  - component: {fileID: 224619316}
   m_Layer: 0
   m_Name: ParedSupIzq
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12756,6 +12550,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &224619316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224619312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &224976605
 GameObject:
   m_ObjectHideFlags: 0
@@ -12768,7 +12578,7 @@ GameObject:
   - component: {fileID: 224976607}
   m_Layer: 0
   m_Name: Colision (7)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12826,7 +12636,7 @@ GameObject:
   - component: {fileID: 226678992}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12883,7 +12693,7 @@ GameObject:
   - component: {fileID: 226781741}
   m_Layer: 0
   m_Name: Escritorio2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12916,7 +12726,7 @@ GameObject:
   - component: {fileID: 227219362}
   m_Layer: 0
   m_Name: Gabinete2 (7)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12949,7 +12759,7 @@ GameObject:
   - component: {fileID: 230080665}
   m_Layer: 0
   m_Name: Silla1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12982,7 +12792,7 @@ GameObject:
   - component: {fileID: 232633353}
   m_Layer: 0
   m_Name: Escritorio1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13132,7 +12942,7 @@ GameObject:
   - component: {fileID: 237231815}
   m_Layer: 0
   m_Name: BoteDeBasura1 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13163,9 +12973,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 237273465}
+  - component: {fileID: 237273466}
   m_Layer: 0
   m_Name: Jardineras
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13191,6 +13002,22 @@ Transform:
   m_Father: {fileID: 728910667}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &237273466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237273464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &248835493
 GameObject:
   m_ObjectHideFlags: 0
@@ -13236,7 +13063,6 @@ GameObject:
   - component: {fileID: 252731607}
   - component: {fileID: 252731606}
   - component: {fileID: 252731608}
-  - component: {fileID: 252731609}
   m_Layer: 0
   m_Name: FondoCTA
   m_TagString: Untagged
@@ -16862,21 +16688,6 @@ MonoBehaviour:
   m_Area: 0
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
---- !u!114 &252731609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252731604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c06c2fcfb0d5d243897e89d925a90bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  txtDialogo: {fileID: 0}
-  proftxt1: {fileID: 21300000, guid: 84c1e8d6ed252c243af0b1c1e79bd06e, type: 3}
-  proftxt2: {fileID: 0}
 --- !u!1 &252965420
 GameObject:
   m_ObjectHideFlags: 0
@@ -16889,7 +16700,7 @@ GameObject:
   - component: {fileID: 252965422}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16973,7 +16784,7 @@ GameObject:
   - component: {fileID: 253196082}
   m_Layer: 0
   m_Name: Arbusto
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17023,7 +16834,7 @@ GameObject:
   - component: {fileID: 253785083}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17081,7 +16892,7 @@ GameObject:
   - component: {fileID: 255059637}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17165,7 +16976,7 @@ GameObject:
   - component: {fileID: 259027750}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17249,7 +17060,7 @@ GameObject:
   - component: {fileID: 262360094}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17342,7 +17153,7 @@ Transform:
   - {fileID: 1826682052}
   - {fileID: 1637770485}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &267711249
 GameObject:
@@ -17355,7 +17166,7 @@ GameObject:
   - component: {fileID: 267711250}
   m_Layer: 0
   m_Name: PortalesExp2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17448,7 +17259,7 @@ GameObject:
   - component: {fileID: 271511073}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17507,7 +17318,7 @@ GameObject:
   - component: {fileID: 273032439}
   m_Layer: 0
   m_Name: SalonesA200
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17618,7 +17429,7 @@ GameObject:
   - component: {fileID: 280040756}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17872,7 +17683,7 @@ GameObject:
   - component: {fileID: 282663720}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17931,7 +17742,7 @@ GameObject:
   - component: {fileID: 285713486}
   m_Layer: 0
   m_Name: ParedSupIzq (19)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18042,7 +17853,7 @@ GameObject:
   - component: {fileID: 291362805}
   m_Layer: 0
   m_Name: Colision (19)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18408,7 +18219,7 @@ RectTransform:
   - {fileID: 1418401869}
   - {fileID: 741174434}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -18503,7 +18314,7 @@ GameObject:
   - component: {fileID: 304428469}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22221,7 +22032,7 @@ GameObject:
   - component: {fileID: 316141205}
   m_Layer: 0
   m_Name: Hidrante (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22271,7 +22082,7 @@ GameObject:
   - component: {fileID: 316572986}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22355,7 +22166,7 @@ GameObject:
   - component: {fileID: 319280293}
   m_Layer: 0
   m_Name: BeerHouse
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22404,7 +22215,7 @@ GameObject:
   - component: {fileID: 322552877}
   m_Layer: 0
   m_Name: Banca 1 (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22551,7 +22362,7 @@ GameObject:
   - component: {fileID: 324140986}
   m_Layer: 0
   m_Name: Colision (18)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22609,7 +22420,7 @@ GameObject:
   - component: {fileID: 325274774}
   m_Layer: 0
   m_Name: Colision (10)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22655,216 +22466,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &325979633
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 325979641}
-  - component: {fileID: 325979640}
-  - component: {fileID: 325979639}
-  - component: {fileID: 325979638}
-  - component: {fileID: 325979637}
-  - component: {fileID: 325979636}
-  - component: {fileID: 325979635}
-  - component: {fileID: 325979634}
-  m_Layer: 0
-  m_Name: Enemigo (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &325979634
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325979633}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9aaea614faf4dda44bf2a1dd30b25f7d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!195 &325979635
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325979633}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 1.0649999
-  m_Speed: 2
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2.36
-  m_BaseOffset: 1.18
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!50 &325979636
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325979633}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &325979637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325979633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28b875ad44480384f98238677c4c02cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje: {fileID: 576802541}
-  puntosRuta:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
-  distanciaDeteccionPlayer: 5
---- !u!114 &325979638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325979633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28b875ad44480384f98238677c4c02cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje: {fileID: 1736705335}
-  puntosRuta:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
-  distanciaDeteccionPlayer: 5
---- !u!70 &325979639
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325979633}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2.1299999, y: 2.36}
-  m_Direction: 0
---- !u!212 &325979640
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325979633}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1072907661
-  m_SortingLayer: 7
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 1885993944, guid: 61298bb829b3acf4f9803d9b6bbeda0f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &325979641
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325979633}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.34, y: -4.28, z: 0}
-  m_LocalScale: {x: 0.7978125, y: 0.76962894, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &327708424
 GameObject:
   m_ObjectHideFlags: 0
@@ -22877,7 +22478,7 @@ GameObject:
   - component: {fileID: 327708426}
   m_Layer: 0
   m_Name: Banca 1 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22926,7 +22527,7 @@ GameObject:
   - component: {fileID: 328745570}
   m_Layer: 0
   m_Name: Gabinete2 (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22960,7 +22561,7 @@ GameObject:
   - component: {fileID: 329022347}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23043,7 +22644,7 @@ GameObject:
   - component: {fileID: 342011867}
   m_Layer: 0
   m_Name: Gabinete2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23078,7 +22679,7 @@ GameObject:
   - component: {fileID: 346219609}
   m_Layer: 0
   m_Name: Banca2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23301,7 +22902,7 @@ GameObject:
   - component: {fileID: 352025443}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23412,37 +23013,6 @@ MonoBehaviour:
   m_Area: 0
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
---- !u!1 &361789159
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 361789160}
-  m_Layer: 0
-  m_Name: Punto3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &361789160
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361789159}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.09, y: -0.85, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2041636870}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &368622178
 GameObject:
   m_ObjectHideFlags: 0
@@ -24006,7 +23576,7 @@ GameObject:
   - component: {fileID: 373070100}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24063,7 +23633,7 @@ GameObject:
   - component: {fileID: 373127925}
   m_Layer: 0
   m_Name: Escritorio1 (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24096,7 +23666,7 @@ GameObject:
   - component: {fileID: 376619893}
   m_Layer: 0
   m_Name: Escritorio2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24130,7 +23700,7 @@ GameObject:
   - component: {fileID: 395128056}
   m_Layer: 0
   m_Name: Arbusto (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24180,7 +23750,7 @@ GameObject:
   - component: {fileID: 402022283}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24237,7 +23807,7 @@ GameObject:
   - component: {fileID: 404280786}
   m_Layer: 0
   m_Name: Gabinete2 (13)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24270,6 +23840,7 @@ GameObject:
   - component: {fileID: 404577814}
   - component: {fileID: 404577816}
   - component: {fileID: 404577815}
+  - component: {fileID: 404577817}
   m_Layer: 0
   m_Name: P_EXP1_3
   m_TagString: portal3
@@ -24371,6 +23942,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &404577817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404577813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &405306595
 GameObject:
   m_ObjectHideFlags: 0
@@ -24383,7 +23970,7 @@ GameObject:
   - component: {fileID: 405306597}
   m_Layer: 0
   m_Name: Colision (6)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24429,6 +24016,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &410103888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410103889}
+  m_Layer: 0
+  m_Name: P1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410103889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410103888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.69, y: -0.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2041636870}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &411579123
 GameObject:
   m_ObjectHideFlags: 0
@@ -24441,7 +24059,7 @@ GameObject:
   - component: {fileID: 411579125}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24499,7 +24117,7 @@ GameObject:
   - component: {fileID: 417004008}
   m_Layer: 0
   m_Name: Colision (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24545,135 +24163,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.88, y: 0.5}
   m_EdgeRadius: 0
---- !u!1 &417684535
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 417684536}
-  - component: {fileID: 417684539}
-  - component: {fileID: 417684538}
-  - component: {fileID: 417684537}
-  m_Layer: 0
-  m_Name: ParedEnemigo1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &417684536
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 417684535}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.73, y: 4.27, z: 0}
-  m_LocalScale: {x: 3.0519757, y: 4.6136537, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 423582066}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &417684537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 417684535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 1
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
---- !u!61 &417684538
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 417684535}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!212 &417684539
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 417684535}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -489379839
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &418912790
 GameObject:
   m_ObjectHideFlags: 0
@@ -24685,7 +24174,7 @@ GameObject:
   - component: {fileID: 418912791}
   m_Layer: 0
   m_Name: Cafeteria
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24718,7 +24207,7 @@ GameObject:
   - component: {fileID: 423582066}
   m_Layer: 0
   m_Name: Paredes
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24748,8 +24237,6 @@ Transform:
   - {fileID: 843518132}
   - {fileID: 762325718}
   - {fileID: 89629931}
-  - {fileID: 417684536}
-  - {fileID: 1307052418}
   m_Father: {fileID: 728910667}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24910,7 +24397,7 @@ GameObject:
   - component: {fileID: 430168220}
   m_Layer: 0
   m_Name: ParedSupIzq (15)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25069,7 +24556,7 @@ GameObject:
   - component: {fileID: 437935480}
   m_Layer: 0
   m_Name: Colision (7)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25128,7 +24615,7 @@ GameObject:
   - component: {fileID: 438064873}
   m_Layer: 0
   m_Name: ParedSupIzq (17)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28895,7 +28382,7 @@ GameObject:
   - component: {fileID: 447039732}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28953,7 +28440,7 @@ GameObject:
   - component: {fileID: 447480525}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29122,7 +28609,7 @@ GameObject:
   - component: {fileID: 449230144}
   m_Layer: 0
   m_Name: ParedSupIzq
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29233,7 +28720,7 @@ GameObject:
   - component: {fileID: 449638778}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29317,7 +28804,7 @@ GameObject:
   - component: {fileID: 455860547}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29521,7 +29008,7 @@ GameObject:
   - component: {fileID: 463017522}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29586,7 +29073,7 @@ GameObject:
   - component: {fileID: 470184946}
   m_Layer: 0
   m_Name: ParedSupIzq (20)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29697,7 +29184,7 @@ GameObject:
   - component: {fileID: 471558905}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29754,7 +29241,7 @@ GameObject:
   - component: {fileID: 481575639}
   m_Layer: 0
   m_Name: P_Salones
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29790,7 +29277,7 @@ GameObject:
   - component: {fileID: 483045928}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29874,7 +29361,7 @@ GameObject:
   - component: {fileID: 488518456}
   m_Layer: 0
   m_Name: Arbol (6)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30015,7 +29502,7 @@ GameObject:
   - component: {fileID: 494230300}
   m_Layer: 0
   m_Name: Colision (14)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30072,7 +29559,7 @@ GameObject:
   - component: {fileID: 502114958}
   m_Layer: 0
   m_Name: Gabinete2 (8)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30106,7 +29593,7 @@ GameObject:
   - component: {fileID: 502457689}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30163,7 +29650,7 @@ GameObject:
   - component: {fileID: 505270543}
   m_Layer: 0
   m_Name: PortalesSal2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30434,7 +29921,7 @@ GameObject:
   - component: {fileID: 525186426}
   m_Layer: 0
   m_Name: ColisionesExp2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30535,7 +30022,7 @@ GameObject:
   - component: {fileID: 531221861}
   m_Layer: 0
   m_Name: Arbol (7)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30584,7 +30071,7 @@ GameObject:
   - component: {fileID: 539117534}
   m_Layer: 0
   m_Name: Gabinete2 (15)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30618,7 +30105,7 @@ GameObject:
   - component: {fileID: 539397302}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30703,7 +30190,7 @@ GameObject:
   - component: {fileID: 540407424}
   m_Layer: 0
   m_Name: Botes (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30872,7 +30359,7 @@ GameObject:
   - component: {fileID: 544156285}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30956,7 +30443,7 @@ GameObject:
   - component: {fileID: 544941492}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31014,7 +30501,7 @@ GameObject:
   - component: {fileID: 546044128}
   m_Layer: 0
   m_Name: Colision (24)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31071,9 +30558,10 @@ GameObject:
   - component: {fileID: 550337336}
   - component: {fileID: 550337338}
   - component: {fileID: 550337337}
+  - component: {fileID: 550337339}
   m_Layer: 0
   m_Name: ParedSupIzq (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31172,6 +30660,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &550337339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550337335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &556555709
 GameObject:
   m_ObjectHideFlags: 0
@@ -31184,7 +30688,7 @@ GameObject:
   - component: {fileID: 556555711}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31325,7 +30829,7 @@ GameObject:
   - component: {fileID: 560353852}
   m_Layer: 0
   m_Name: BoteDeBasura1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31359,7 +30863,7 @@ GameObject:
   - component: {fileID: 561646343}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31529,7 +31033,7 @@ GameObject:
   - component: {fileID: 562958394}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33145,7 +32649,7 @@ GameObject:
   - component: {fileID: 569658708}
   m_Layer: 0
   m_Name: Arboles (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33255,7 +32759,7 @@ GameObject:
   - component: {fileID: 571305445}
   m_Layer: 0
   m_Name: Escritorio2 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33290,7 +32794,7 @@ GameObject:
   - component: {fileID: 572618561}
   m_Layer: 0
   m_Name: ParedSupIzq (6)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33762,7 +33266,7 @@ GameObject:
   - component: {fileID: 585050878}
   m_Layer: 0
   m_Name: Gabinete2 (11)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33907,7 +33411,7 @@ GameObject:
   - component: {fileID: 594144107}
   m_Layer: 0
   m_Name: Gabinete2 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34054,7 +33558,7 @@ GameObject:
   - component: {fileID: 597851967}
   m_Layer: 0
   m_Name: Estatua
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34164,7 +33668,7 @@ GameObject:
   - component: {fileID: 597892243}
   m_Layer: 0
   m_Name: Escritorio1 5
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34256,7 +33760,7 @@ GameObject:
   - component: {fileID: 601282910}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34340,7 +33844,7 @@ GameObject:
   - component: {fileID: 601427866}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34398,7 +33902,7 @@ GameObject:
   - component: {fileID: 601638410}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34573,7 +34077,7 @@ GameObject:
   - component: {fileID: 616950420}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34715,7 +34219,7 @@ GameObject:
   - component: {fileID: 620333773}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34774,7 +34278,7 @@ GameObject:
   - component: {fileID: 626247914}
   m_Layer: 0
   m_Name: ParedSupIzq (14)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34885,7 +34389,7 @@ GameObject:
   - component: {fileID: 626737026}
   m_Layer: 0
   m_Name: Colision (41)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34943,7 +34447,7 @@ GameObject:
   - component: {fileID: 626927600}
   m_Layer: 0
   m_Name: Hidrante (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34993,7 +34497,7 @@ GameObject:
   - component: {fileID: 633689488}
   m_Layer: 0
   m_Name: Arbol (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35041,7 +34545,7 @@ GameObject:
   - component: {fileID: 636208283}
   m_Layer: 0
   m_Name: Gabinete2 (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35074,7 +34578,7 @@ GameObject:
   - component: {fileID: 637707699}
   m_Layer: 0
   m_Name: PortalesSal1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35107,7 +34611,7 @@ GameObject:
   - component: {fileID: 638624402}
   m_Layer: 0
   m_Name: Colision (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35388,9 +34892,10 @@ GameObject:
   - component: {fileID: 647254980}
   - component: {fileID: 647254982}
   - component: {fileID: 647254981}
+  - component: {fileID: 647254983}
   m_Layer: 0
   m_Name: ParedSupIzq (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35489,6 +34994,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &647254983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647254979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &649740403
 GameObject:
   m_ObjectHideFlags: 0
@@ -35501,7 +35022,7 @@ GameObject:
   - component: {fileID: 649740405}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35559,7 +35080,7 @@ GameObject:
   - component: {fileID: 654403999}
   m_Layer: 0
   m_Name: Colision (6)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35617,7 +35138,7 @@ GameObject:
   - component: {fileID: 658786149}
   m_Layer: 0
   m_Name: Casa3
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35666,7 +35187,7 @@ GameObject:
   - component: {fileID: 660901576}
   m_Layer: 0
   m_Name: Escritorio1 7
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35700,7 +35221,7 @@ GameObject:
   - component: {fileID: 661570219}
   m_Layer: 0
   m_Name: Sprite (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35784,7 +35305,7 @@ GameObject:
   - component: {fileID: 675653914}
   m_Layer: 0
   m_Name: ColisionesA200
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35838,7 +35359,7 @@ GameObject:
   - component: {fileID: 679197562}
   m_Layer: 0
   m_Name: PropsSal1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36383,7 +35904,7 @@ GameObject:
   - component: {fileID: 683845562}
   m_Layer: 0
   m_Name: ParedSupIzq (22)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36493,7 +36014,7 @@ GameObject:
   - component: {fileID: 684316293}
   m_Layer: 0
   m_Name: Gabinete2 (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36641,7 +36162,7 @@ GameObject:
   - component: {fileID: 692703130}
   m_Layer: 0
   m_Name: PropsExp2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37164,9 +36685,10 @@ GameObject:
   - component: {fileID: 693518103}
   - component: {fileID: 693518105}
   - component: {fileID: 693518104}
+  - component: {fileID: 693518106}
   m_Layer: 0
   m_Name: Centro Piedra
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37255,6 +36777,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &693518106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693518102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &695063071
 GameObject:
   m_ObjectHideFlags: 0
@@ -37267,7 +36805,7 @@ GameObject:
   - component: {fileID: 695063073}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37325,7 +36863,7 @@ GameObject:
   - component: {fileID: 700081641}
   m_Layer: 0
   m_Name: Colision (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37384,7 +36922,7 @@ GameObject:
   - component: {fileID: 700249157}
   m_Layer: 0
   m_Name: Arboles
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37606,9 +37144,10 @@ GameObject:
   - component: {fileID: 704984141}
   - component: {fileID: 704984143}
   - component: {fileID: 704984142}
+  - component: {fileID: 704984144}
   m_Layer: 0
   m_Name: ParedSupIzq (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37707,6 +37246,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &704984144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704984140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &708055537
 GameObject:
   m_ObjectHideFlags: 0
@@ -37719,7 +37274,7 @@ GameObject:
   - component: {fileID: 708055539}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37803,7 +37358,7 @@ GameObject:
   - component: {fileID: 710317987}
   m_Layer: 0
   m_Name: Arbusto (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37853,7 +37408,7 @@ GameObject:
   - component: {fileID: 711680914}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37937,7 +37492,7 @@ GameObject:
   - component: {fileID: 712951077}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38020,7 +37575,7 @@ GameObject:
   - component: {fileID: 712981548}
   m_Layer: 0
   m_Name: Banca 1 (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38053,7 +37608,7 @@ GameObject:
   - component: {fileID: 721543575}
   m_Layer: 0
   m_Name: BoteDeBasura2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38087,7 +37642,7 @@ GameObject:
   - component: {fileID: 727079356}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38144,7 +37699,7 @@ GameObject:
   - component: {fileID: 728284059}
   m_Layer: 0
   m_Name: PortalesCalle1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38179,7 +37734,7 @@ GameObject:
   - component: {fileID: 728910668}
   m_Layer: 0
   m_Name: ColisionesExp1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38230,7 +37785,7 @@ GameObject:
   - component: {fileID: 733737505}
   m_Layer: 0
   m_Name: Colision (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38288,7 +37843,7 @@ GameObject:
   - component: {fileID: 734567342}
   m_Layer: 0
   m_Name: Colision (39)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38347,7 +37902,7 @@ GameObject:
   - component: {fileID: 736846862}
   m_Layer: 0
   m_Name: ParedSupIzq (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41999,7 +41554,7 @@ GameObject:
   - component: {fileID: 739923751}
   m_Layer: 0
   m_Name: Totem1 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42186,7 +41741,7 @@ GameObject:
   - component: {fileID: 742999046}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42356,7 +41911,7 @@ GameObject:
   - component: {fileID: 750684816}
   m_Layer: 0
   m_Name: Casa8
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42407,7 +41962,7 @@ GameObject:
   - component: {fileID: 751124149}
   m_Layer: 0
   m_Name: ParedSupIzq (18)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42726,7 +42281,7 @@ GameObject:
   - component: {fileID: 756779924}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42784,7 +42339,7 @@ GameObject:
   - component: {fileID: 756948570}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42842,7 +42397,7 @@ GameObject:
   - component: {fileID: 759383519}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42890,7 +42445,7 @@ GameObject:
   - component: {fileID: 760671402}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42974,7 +42529,7 @@ GameObject:
   - component: {fileID: 761812846}
   m_Layer: 0
   m_Name: Colision (38)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43032,7 +42587,7 @@ GameObject:
   - component: {fileID: 761849930}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43089,9 +42644,10 @@ GameObject:
   - component: {fileID: 762325718}
   - component: {fileID: 762325720}
   - component: {fileID: 762325719}
+  - component: {fileID: 762325721}
   m_Layer: 0
   m_Name: ParedLatIzq (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43190,6 +42746,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &762325721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762325717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &765512899
 GameObject:
   m_ObjectHideFlags: 0
@@ -43202,7 +42774,7 @@ GameObject:
   - component: {fileID: 765512901}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43286,7 +42858,7 @@ GameObject:
   - component: {fileID: 773782899}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43344,7 +42916,7 @@ GameObject:
   - component: {fileID: 782450920}
   m_Layer: 0
   m_Name: Arbol
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43393,9 +42965,10 @@ GameObject:
   - component: {fileID: 783245532}
   - component: {fileID: 783245534}
   - component: {fileID: 783245533}
+  - component: {fileID: 783245535}
   m_Layer: 0
   m_Name: 'JarInfDer '
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43494,6 +43067,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &783245535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783245531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &788558907
 GameObject:
   m_ObjectHideFlags: 0
@@ -43505,7 +43094,7 @@ GameObject:
   - component: {fileID: 788558908}
   m_Layer: 0
   m_Name: Gabinete2 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43539,7 +43128,7 @@ GameObject:
   - component: {fileID: 794187986}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43596,9 +43185,10 @@ GameObject:
   - component: {fileID: 800551887}
   - component: {fileID: 800551889}
   - component: {fileID: 800551888}
+  - component: {fileID: 800551890}
   m_Layer: 0
   m_Name: JarInfDer  (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43697,6 +43287,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &800551890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800551886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &810281349
 GameObject:
   m_ObjectHideFlags: 0
@@ -43767,7 +43373,7 @@ GameObject:
   - component: {fileID: 819169260}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43851,7 +43457,7 @@ GameObject:
   - component: {fileID: 819401875}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43935,7 +43541,7 @@ GameObject:
   - component: {fileID: 820394513}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44019,7 +43625,7 @@ GameObject:
   - component: {fileID: 821896712}
   m_Layer: 0
   m_Name: Casa1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44068,9 +43674,10 @@ GameObject:
   - component: {fileID: 843518132}
   - component: {fileID: 843518134}
   - component: {fileID: 843518133}
+  - component: {fileID: 843518135}
   m_Layer: 0
   m_Name: ParedLatIzq (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44169,6 +43776,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &843518135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843518131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &847695955
 GameObject:
   m_ObjectHideFlags: 0
@@ -44181,7 +43804,7 @@ GameObject:
   - component: {fileID: 847695957}
   m_Layer: 0
   m_Name: ColisionesSal1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44230,7 +43853,7 @@ GameObject:
   - component: {fileID: 851625247}
   m_Layer: 0
   m_Name: Tienda
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44373,7 +43996,7 @@ GameObject:
   - component: {fileID: 858019991}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44421,7 +44044,7 @@ GameObject:
   - component: {fileID: 859191175}
   m_Layer: 0
   m_Name: Arbusto (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44470,9 +44093,10 @@ GameObject:
   - component: {fileID: 859451696}
   - component: {fileID: 859451698}
   - component: {fileID: 859451697}
+  - component: {fileID: 859451699}
   m_Layer: 0
   m_Name: 'ParedInfDer '
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44571,6 +44195,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &859451699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859451695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &859747143
 GameObject:
   m_ObjectHideFlags: 0
@@ -44583,7 +44223,7 @@ GameObject:
   - component: {fileID: 859747145}
   m_Layer: 0
   m_Name: Colision (32)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44641,7 +44281,7 @@ GameObject:
   - component: {fileID: 861218106}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44757,7 +44397,7 @@ GameObject:
   - component: {fileID: 865283723}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44840,7 +44480,7 @@ GameObject:
   - component: {fileID: 869738983}
   m_Layer: 0
   m_Name: Escritorio1 (6)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44874,7 +44514,7 @@ GameObject:
   - component: {fileID: 874840071}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44965,7 +44605,7 @@ GameObject:
   - component: {fileID: 884851216}
   m_Layer: 0
   m_Name: Colision (13)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45023,7 +44663,7 @@ GameObject:
   - component: {fileID: 888035387}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45081,7 +44721,7 @@ GameObject:
   - component: {fileID: 891541716}
   m_Layer: 0
   m_Name: Arbusto
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45131,7 +44771,7 @@ GameObject:
   - component: {fileID: 893435114}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45189,7 +44829,7 @@ GameObject:
   - component: {fileID: 893805537}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45273,7 +44913,7 @@ GameObject:
   - component: {fileID: 896468062}
   m_Layer: 0
   m_Name: Arbol
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45323,7 +44963,7 @@ GameObject:
   - component: {fileID: 900345769}
   m_Layer: 0
   m_Name: ParedSupIzq (16)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45434,7 +45074,7 @@ GameObject:
   - component: {fileID: 902728147}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45492,7 +45132,7 @@ GameObject:
   - component: {fileID: 903962975}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45576,7 +45216,7 @@ GameObject:
   - component: {fileID: 905547627}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45660,7 +45300,7 @@ GameObject:
   - component: {fileID: 919713944}
   m_Layer: 0
   m_Name: Colision (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45719,7 +45359,7 @@ GameObject:
   - component: {fileID: 921985407}
   m_Layer: 0
   m_Name: Banca4
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45829,7 +45469,7 @@ GameObject:
   - component: {fileID: 925110227}
   m_Layer: 0
   m_Name: Escritorio2 (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45919,15 +45559,14 @@ GameObject:
   m_Component:
   - component: {fileID: 932158631}
   - component: {fileID: 932158630}
+  - component: {fileID: 932158627}
   - component: {fileID: 932158629}
   - component: {fileID: 932158628}
-  - component: {fileID: 932158633}
-  - component: {fileID: 932158627}
   - component: {fileID: 932158632}
   - component: {fileID: 932158634}
   m_Layer: 0
   m_Name: Enemigo
-  m_TagString: Untagged
+  m_TagString: enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45967,11 +45606,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   personaje: {fileID: 1736705335}
   puntosRuta:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
+  - {fileID: 410103889}
+  - {fileID: 1617745020}
+  - {fileID: 1462833017}
+  - {fileID: 1560336141}
   distanciaDeteccionPlayer: 5
 --- !u!70 &932158629
 CapsuleCollider2D:
@@ -46049,12 +45687,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932158626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: -1, z: 0}
+  m_LocalPosition: {x: 8, y: 0.3, z: 0}
   m_LocalScale: {x: 0.7978125, y: 0.76962894, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!195 &932158632
 NavMeshAgent:
@@ -46078,26 +45716,6 @@ NavMeshAgent:
   m_BaseOffset: 1.18
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &932158633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932158626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28b875ad44480384f98238677c4c02cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje: {fileID: 576802541}
-  puntosRuta:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
-  distanciaDeteccionPlayer: 5
 --- !u!95 &932158634
 Animator:
   serializedVersion: 5
@@ -46163,6 +45781,7 @@ GameObject:
   - component: {fileID: 936772029}
   - component: {fileID: 936772031}
   - component: {fileID: 936772030}
+  - component: {fileID: 936772032}
   m_Layer: 0
   m_Name: P_EXP1_2
   m_TagString: portal2
@@ -46264,6 +45883,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &936772032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936772028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &943232191
 GameObject:
   m_ObjectHideFlags: 0
@@ -46276,7 +45911,7 @@ GameObject:
   - component: {fileID: 943232193}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46466,7 +46101,7 @@ GameObject:
   - component: {fileID: 945112770}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46524,7 +46159,7 @@ GameObject:
   - component: {fileID: 945554936}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46608,7 +46243,7 @@ GameObject:
   - component: {fileID: 946839747}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46666,7 +46301,7 @@ GameObject:
   - component: {fileID: 952706375}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46714,7 +46349,7 @@ GameObject:
   - component: {fileID: 954117256}
   m_Layer: 0
   m_Name: Shine
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46964,7 +46599,7 @@ GameObject:
   - component: {fileID: 973233226}
   m_Layer: 0
   m_Name: Escritorio2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50715,7 +50350,7 @@ GameObject:
   - component: {fileID: 979408270}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50799,7 +50434,7 @@ GameObject:
   - component: {fileID: 984805153}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50883,7 +50518,7 @@ GameObject:
   - component: {fileID: 984883229}
   m_Layer: 0
   m_Name: Colision (28)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50941,7 +50576,7 @@ GameObject:
   - component: {fileID: 985773961}
   m_Layer: 0
   m_Name: Arbusto (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50991,7 +50626,7 @@ GameObject:
   - component: {fileID: 986315988}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51133,7 +50768,7 @@ GameObject:
   - component: {fileID: 991403579}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51217,7 +50852,7 @@ GameObject:
   - component: {fileID: 992757928}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51413,7 +51048,7 @@ GameObject:
   - component: {fileID: 994367728}
   m_Layer: 0
   m_Name: Colision (30)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51471,7 +51106,7 @@ GameObject:
   - component: {fileID: 1000645451}
   m_Layer: 0
   m_Name: Colision (25)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51517,37 +51152,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.88, y: 0.5}
   m_EdgeRadius: 0
---- !u!1 &1007093509
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1007093510}
-  m_Layer: 0
-  m_Name: Punto5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1007093510
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007093509}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.41, y: -5.76, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2041636870}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1009922791
 GameObject:
   m_ObjectHideFlags: 0
@@ -51559,7 +51163,7 @@ GameObject:
   - component: {fileID: 1009922792}
   m_Layer: 0
   m_Name: Escritorio2 (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51593,7 +51197,7 @@ GameObject:
   - component: {fileID: 1011254810}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51652,7 +51256,7 @@ GameObject:
   - component: {fileID: 1012927213}
   m_Layer: 0
   m_Name: Botesbasura
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51763,7 +51367,7 @@ GameObject:
   - component: {fileID: 1014454052}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51959,7 +51563,7 @@ GameObject:
   - component: {fileID: 1025981566}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52043,7 +51647,7 @@ GameObject:
   - component: {fileID: 1025983004}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52101,7 +51705,7 @@ GameObject:
   - component: {fileID: 1035595957}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52185,7 +51789,7 @@ GameObject:
   - component: {fileID: 1039071790}
   m_Layer: 0
   m_Name: Arbol (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52233,7 +51837,7 @@ GameObject:
   - component: {fileID: 1041091623}
   m_Layer: 0
   m_Name: Banca 1 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52267,7 +51871,7 @@ GameObject:
   - component: {fileID: 1042597466}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52324,6 +51928,7 @@ GameObject:
   - component: {fileID: 1043622281}
   - component: {fileID: 1043622283}
   - component: {fileID: 1043622282}
+  - component: {fileID: 1043622284}
   m_Layer: 0
   m_Name: P_EXP1_1
   m_TagString: portal1
@@ -52425,6 +52030,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1043622284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043622280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1047290126
 GameObject:
   m_ObjectHideFlags: 0
@@ -52436,7 +52057,7 @@ GameObject:
   - component: {fileID: 1047290127}
   m_Layer: 0
   m_Name: Escritorio1 3
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52469,9 +52090,10 @@ GameObject:
   - component: {fileID: 1050235280}
   - component: {fileID: 1050235282}
   - component: {fileID: 1050235281}
+  - component: {fileID: 1050235283}
   m_Layer: 0
   m_Name: JarSupIzq
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52570,6 +52192,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1050235283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050235279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1053326142
 GameObject:
   m_ObjectHideFlags: 0
@@ -52729,7 +52367,7 @@ GameObject:
   - component: {fileID: 1053952078}
   m_Layer: 0
   m_Name: PropsExp1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53311,7 +52949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
-  m_Area: 1
+  m_Area: 0
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
 --- !u!1 &1065258987
@@ -53326,7 +52964,7 @@ GameObject:
   - component: {fileID: 1065258989}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53412,7 +53050,7 @@ GameObject:
   - component: {fileID: 1068160908}
   m_Layer: 0
   m_Name: PropsSal4
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53449,7 +53087,6 @@ Transform:
   - {fileID: 1177376641}
   - {fileID: 539117534}
   - {fileID: 230080665}
-  - {fileID: 1924696633}
   m_Father: {fileID: 1330877350}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54049,7 +53686,7 @@ GameObject:
   - component: {fileID: 1076619639}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54107,7 +53744,7 @@ GameObject:
   - component: {fileID: 1082033945}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54336,7 +53973,7 @@ GameObject:
   - component: {fileID: 1089857228}
   m_Layer: 0
   m_Name: GoBar
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54444,7 +54081,7 @@ GameObject:
   - component: {fileID: 1096317319}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54493,7 +54130,7 @@ GameObject:
   - component: {fileID: 1100048817}
   m_Layer: 0
   m_Name: Entrada
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54604,7 +54241,7 @@ GameObject:
   - component: {fileID: 1100864680}
   m_Layer: 0
   m_Name: Colision (8)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54662,7 +54299,7 @@ GameObject:
   - component: {fileID: 1104095872}
   m_Layer: 0
   m_Name: Arbusto (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54712,7 +54349,7 @@ GameObject:
   - component: {fileID: 1108254555}
   m_Layer: 0
   m_Name: Colision (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54771,7 +54408,7 @@ GameObject:
   - component: {fileID: 1108758690}
   m_Layer: 0
   m_Name: ParedSupIzq (13)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54881,7 +54518,7 @@ GameObject:
   - component: {fileID: 1110011406}
   m_Layer: 0
   m_Name: Gabinete2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55006,7 +54643,7 @@ GameObject:
   - component: {fileID: 1115654204}
   m_Layer: 0
   m_Name: Casa6
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55057,7 +54694,7 @@ GameObject:
   - component: {fileID: 1116909048}
   m_Layer: 0
   m_Name: Entrada (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55168,7 +54805,7 @@ GameObject:
   - component: {fileID: 1116940138}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55226,7 +54863,7 @@ GameObject:
   - component: {fileID: 1118031877}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55310,7 +54947,7 @@ GameObject:
   - component: {fileID: 1122850687}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55393,9 +55030,10 @@ GameObject:
   - component: {fileID: 1130101090}
   - component: {fileID: 1130101092}
   - component: {fileID: 1130101091}
+  - component: {fileID: 1130101093}
   m_Layer: 0
   m_Name: JarSupDer
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55494,6 +55132,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1130101093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130101089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1131432789
 GameObject:
   m_ObjectHideFlags: 0
@@ -55506,7 +55160,7 @@ GameObject:
   - component: {fileID: 1131432791}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55564,7 +55218,7 @@ GameObject:
   - component: {fileID: 1132243702}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55768,7 +55422,7 @@ GameObject:
   - component: {fileID: 1142493547}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55826,7 +55480,7 @@ GameObject:
   - component: {fileID: 1143984754}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56028,7 +55682,7 @@ Transform:
   - {fileID: 1208730085}
   - {fileID: 505270543}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1158943459
 GameObject:
@@ -56045,7 +55699,7 @@ GameObject:
   - component: {fileID: 1158943463}
   m_Layer: 0
   m_Name: CaminoCalle1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59004,7 +58658,7 @@ GameObject:
   - component: {fileID: 1159502601}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59146,7 +58800,7 @@ GameObject:
   - component: {fileID: 1162916943}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59204,7 +58858,7 @@ GameObject:
   - component: {fileID: 1163544362}
   m_Layer: 0
   m_Name: Colision (29)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59262,7 +58916,7 @@ GameObject:
   - component: {fileID: 1163931417}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59320,7 +58974,7 @@ GameObject:
   - component: {fileID: 1165317335}
   m_Layer: 0
   m_Name: Colision (14)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59378,7 +59032,7 @@ GameObject:
   - component: {fileID: 1168197840}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59463,7 +59117,7 @@ GameObject:
   - component: {fileID: 1171090909}
   m_Layer: 0
   m_Name: ParedSupIzq (7)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59689,7 +59343,7 @@ GameObject:
   - component: {fileID: 1177376641}
   m_Layer: 0
   m_Name: Gabinete2 (14)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59781,7 +59435,7 @@ GameObject:
   - component: {fileID: 1178945474}
   m_Layer: 0
   m_Name: Arbusto (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59831,7 +59485,7 @@ GameObject:
   - component: {fileID: 1180883570}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59963,7 +59617,7 @@ GameObject:
   - component: {fileID: 1189963375}
   m_Layer: 0
   m_Name: Colision (13)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60021,7 +59675,7 @@ GameObject:
   - component: {fileID: 1191250283}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60105,7 +59759,7 @@ GameObject:
   - component: {fileID: 1195186329}
   m_Layer: 0
   m_Name: Hidrante (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60357,7 +60011,7 @@ GameObject:
   - component: {fileID: 1203735507}
   m_Layer: 0
   m_Name: PortalesCalle2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60390,7 +60044,7 @@ GameObject:
   - component: {fileID: 1208730086}
   m_Layer: 0
   m_Name: ColisionesSal2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60438,7 +60092,7 @@ GameObject:
   - component: {fileID: 1210543455}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60496,7 +60150,7 @@ GameObject:
   - component: {fileID: 1214852139}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64214,7 +63868,7 @@ GameObject:
   - component: {fileID: 1226064198}
   m_Layer: 0
   m_Name: Colision (9)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64272,7 +63926,7 @@ GameObject:
   - component: {fileID: 1227332394}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64329,7 +63983,7 @@ GameObject:
   - component: {fileID: 1228881970}
   m_Layer: 0
   m_Name: Escritorio1 6
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64475,7 +64129,7 @@ GameObject:
   - component: {fileID: 1233849011}
   m_Layer: 0
   m_Name: Colision (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64591,7 +64245,7 @@ GameObject:
   - component: {fileID: 1252121574}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64649,7 +64303,7 @@ GameObject:
   - component: {fileID: 1252978025}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64707,7 +64361,7 @@ GameObject:
   - component: {fileID: 1254726620}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64914,7 +64568,7 @@ GameObject:
   - component: {fileID: 1270662473}
   m_Layer: 0
   m_Name: PortalesA200
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64947,7 +64601,7 @@ GameObject:
   - component: {fileID: 1273401413}
   m_Layer: 0
   m_Name: Escritorio2 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64981,7 +64635,7 @@ GameObject:
   - component: {fileID: 1277535948}
   m_Layer: 0
   m_Name: Arbol (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65030,7 +64684,7 @@ GameObject:
   - component: {fileID: 1277581512}
   m_Layer: 0
   m_Name: Colision (33)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65154,7 +64808,7 @@ GameObject:
   - component: {fileID: 1292469440}
   m_Layer: 0
   m_Name: Banca 1 (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65204,7 +64858,7 @@ GameObject:
   - component: {fileID: 1292983782}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65252,7 +64906,7 @@ GameObject:
   - component: {fileID: 1302232065}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65368,135 +65022,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1307052417
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1307052418}
-  - component: {fileID: 1307052421}
-  - component: {fileID: 1307052420}
-  - component: {fileID: 1307052419}
-  m_Layer: 0
-  m_Name: ParedEnemigo3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1307052418
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307052417}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -5.21, y: -7.57, z: 0}
-  m_LocalScale: {x: 3.051976, y: 8.342037, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 423582066}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!114 &1307052419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307052417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 1
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
---- !u!61 &1307052420
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307052417}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!212 &1307052421
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307052417}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -489379839
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1310197159
 GameObject:
   m_ObjectHideFlags: 0
@@ -65509,7 +65034,7 @@ GameObject:
   - component: {fileID: 1310197161}
   m_Layer: 0
   m_Name: Colision (9)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65567,7 +65092,7 @@ GameObject:
   - component: {fileID: 1312844941}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65651,7 +65176,7 @@ GameObject:
   - component: {fileID: 1314191566}
   m_Layer: 0
   m_Name: Colision (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69456,7 +68981,7 @@ GameObject:
   - component: {fileID: 1317466179}
   m_Layer: 0
   m_Name: Arboles (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69728,7 +69253,7 @@ GameObject:
   - component: {fileID: 1332602025}
   m_Layer: 0
   m_Name: ParedSupIzq (11)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69872,7 +69397,7 @@ GameObject:
   - component: {fileID: 1333252284}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69956,7 +69481,7 @@ GameObject:
   - component: {fileID: 1333493023}
   m_Layer: 0
   m_Name: Hidrante
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70006,7 +69531,7 @@ GameObject:
   - component: {fileID: 1352535540}
   m_Layer: 0
   m_Name: Banca 1 (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70056,7 +69581,7 @@ GameObject:
   - component: {fileID: 1353277901}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70140,7 +69665,7 @@ GameObject:
   - component: {fileID: 1353459028}
   m_Layer: 0
   m_Name: Arbusto (6)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70190,7 +69715,7 @@ GameObject:
   - component: {fileID: 1355834012}
   m_Layer: 0
   m_Name: ParedLatfIzq
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70300,7 +69825,7 @@ GameObject:
   - component: {fileID: 1355912031}
   m_Layer: 0
   m_Name: Escritorio1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70377,7 +69902,7 @@ GameObject:
   - component: {fileID: 1359350288}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70461,7 +69986,7 @@ GameObject:
   - component: {fileID: 1360742321}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70701,7 +70226,7 @@ GameObject:
   - component: {fileID: 1366469545}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70785,7 +70310,7 @@ GameObject:
   - component: {fileID: 1366622233}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70868,7 +70393,7 @@ GameObject:
   - component: {fileID: 1369436992}
   m_Layer: 0
   m_Name: Paredes
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70907,7 +70432,7 @@ GameObject:
   - component: {fileID: 1370737280}
   m_Layer: 0
   m_Name: Colision (37)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70966,7 +70491,7 @@ GameObject:
   - component: {fileID: 1372062835}
   m_Layer: 0
   m_Name: Botes
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71080,7 +70605,7 @@ GameObject:
   - component: {fileID: 1373895273}
   m_Layer: 0
   m_Name: PropsCalle1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71364,7 +70889,7 @@ GameObject:
   - component: {fileID: 1377887342}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71533,7 +71058,7 @@ GameObject:
   - component: {fileID: 1389099238}
   m_Layer: 0
   m_Name: ParedSupIzq (23)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72048,7 +71573,7 @@ GameObject:
   - component: {fileID: 1407486308}
   m_Layer: 0
   m_Name: Colision (8)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72218,7 +71743,7 @@ GameObject:
   - component: {fileID: 1425139128}
   m_Layer: 0
   m_Name: Colision (11)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74831,7 +74356,7 @@ GameObject:
   - component: {fileID: 1437902689}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75014,7 +74539,7 @@ GameObject:
   - component: {fileID: 1450819135}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75131,7 +74656,7 @@ GameObject:
   - component: {fileID: 1455953482}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75215,7 +74740,7 @@ GameObject:
   - component: {fileID: 1459947934}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75371,6 +74896,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1462833016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1462833017}
+  m_Layer: 0
+  m_Name: P3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1462833017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462833016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.3, y: 4.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2041636870}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1464156298
 GameObject:
   m_ObjectHideFlags: 0
@@ -75383,7 +74939,7 @@ GameObject:
   - component: {fileID: 1464156300}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75467,7 +75023,7 @@ GameObject:
   - component: {fileID: 1465340517}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75550,7 +75106,7 @@ GameObject:
   - component: {fileID: 1470915278}
   m_Layer: 0
   m_Name: Escritorio1 (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75643,7 +75199,7 @@ GameObject:
   - component: {fileID: 1484267454}
   m_Layer: 0
   m_Name: Banca4 (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75755,7 +75311,7 @@ GameObject:
   - component: {fileID: 1484776719}
   m_Layer: 0
   m_Name: Banca3
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75866,7 +75422,7 @@ GameObject:
   - component: {fileID: 1488865546}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75946,9 +75502,10 @@ GameObject:
   - component: {fileID: 1503713092}
   - component: {fileID: 1503713094}
   - component: {fileID: 1503713093}
+  - component: {fileID: 1503713095}
   m_Layer: 0
   m_Name: 'ParedInfIzq '
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76047,6 +75604,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1503713095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503713091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1512771669
 GameObject:
   m_ObjectHideFlags: 0
@@ -76201,7 +75774,7 @@ GameObject:
   - component: {fileID: 1528391079}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76259,7 +75832,7 @@ GameObject:
   - component: {fileID: 1530339912}
   m_Layer: 0
   m_Name: Arbol (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76307,7 +75880,7 @@ GameObject:
   - component: {fileID: 1531818748}
   m_Layer: 0
   m_Name: Banca 1 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76341,7 +75914,7 @@ GameObject:
   - component: {fileID: 1531976223}
   m_Layer: 0
   m_Name: Arbusto (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76390,7 +75963,7 @@ GameObject:
   - component: {fileID: 1532495181}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76507,7 +76080,7 @@ GameObject:
   - component: {fileID: 1543143657}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76622,9 +76195,10 @@ GameObject:
   - component: {fileID: 1557691218}
   - component: {fileID: 1557691220}
   - component: {fileID: 1557691219}
+  - component: {fileID: 1557691221}
   m_Layer: 0
   m_Name: 'JarSInfIzq '
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76723,6 +76297,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1557691221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557691217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1558395862
 GameObject:
   m_ObjectHideFlags: 0
@@ -76810,9 +76400,10 @@ GameObject:
   - component: {fileID: 1558650380}
   - component: {fileID: 1558650382}
   - component: {fileID: 1558650381}
+  - component: {fileID: 1558650383}
   m_Layer: 0
   m_Name: ParedLatDer (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76911,6 +76502,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1558650383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558650379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
+--- !u!1 &1560336140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560336141}
+  m_Layer: 0
+  m_Name: P4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1560336141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560336140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.3, y: -0.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2041636870}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1560436732
 GameObject:
   m_ObjectHideFlags: 0
@@ -76956,7 +76594,7 @@ GameObject:
   - component: {fileID: 1561566874}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77028,216 +76666,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1566075851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1566075859}
-  - component: {fileID: 1566075858}
-  - component: {fileID: 1566075857}
-  - component: {fileID: 1566075856}
-  - component: {fileID: 1566075855}
-  - component: {fileID: 1566075854}
-  - component: {fileID: 1566075853}
-  - component: {fileID: 1566075852}
-  m_Layer: 0
-  m_Name: Enemigo (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1566075852
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566075851}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9aaea614faf4dda44bf2a1dd30b25f7d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!195 &1566075853
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566075851}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 1.0649999
-  m_Speed: 2
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2.36
-  m_BaseOffset: 1.18
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!50 &1566075854
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566075851}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &1566075855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566075851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28b875ad44480384f98238677c4c02cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje: {fileID: 576802541}
-  puntosRuta:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
-  distanciaDeteccionPlayer: 5
---- !u!114 &1566075856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566075851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28b875ad44480384f98238677c4c02cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje: {fileID: 1736705335}
-  puntosRuta:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
-  distanciaDeteccionPlayer: 5
---- !u!70 &1566075857
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566075851}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2.1299999, y: 2.36}
-  m_Direction: 0
---- !u!212 &1566075858
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566075851}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1072907661
-  m_SortingLayer: 7
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 1885993944, guid: 61298bb829b3acf4f9803d9b6bbeda0f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1566075859
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566075851}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2, y: -3.58, z: 0}
-  m_LocalScale: {x: 0.7978125, y: 0.76962894, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1567155393
 GameObject:
   m_ObjectHideFlags: 0
@@ -77308,7 +76736,7 @@ GameObject:
   - component: {fileID: 1570809499}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77392,7 +76820,7 @@ GameObject:
   - component: {fileID: 1572796873}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77482,7 +76910,7 @@ GameObject:
   - component: {fileID: 1578852187}
   m_Layer: 0
   m_Name: Gabinete2 (12)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77517,7 +76945,7 @@ GameObject:
   - component: {fileID: 1582945644}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77652,7 +77080,7 @@ GameObject:
   - component: {fileID: 1594193244}
   m_Layer: 0
   m_Name: PropsCalle2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77919,7 +77347,7 @@ GameObject:
   - component: {fileID: 1596727540}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78002,9 +77430,10 @@ GameObject:
   - component: {fileID: 1598285456}
   - component: {fileID: 1598285458}
   - component: {fileID: 1598285457}
+  - component: {fileID: 1598285459}
   m_Layer: 0
   m_Name: ParedLatDer
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78103,6 +77532,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1598285459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598285455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1605700451
 GameObject:
   m_ObjectHideFlags: 0
@@ -78115,7 +77560,7 @@ GameObject:
   - component: {fileID: 1605700453}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78199,7 +77644,7 @@ GameObject:
   - component: {fileID: 1608121877}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78303,6 +77748,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1617745019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1617745020}
+  m_Layer: 0
+  m_Name: P2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1617745020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617745019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.59, y: 4.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2041636870}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1621874692
 GameObject:
   m_ObjectHideFlags: 0
@@ -78554,9 +78030,10 @@ GameObject:
   - component: {fileID: 1629637145}
   - component: {fileID: 1629637147}
   - component: {fileID: 1629637146}
+  - component: {fileID: 1629637148}
   m_Layer: 0
   m_Name: ParedLatIzq
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78655,6 +78132,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1629637148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629637144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1631297914
 GameObject:
   m_ObjectHideFlags: 0
@@ -78687,7 +78180,7 @@ Transform:
   - {fileID: 974001159}
   - {fileID: 1651549042}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631987707
 GameObject:
@@ -78701,7 +78194,7 @@ GameObject:
   - component: {fileID: 1631987709}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78784,7 +78277,7 @@ GameObject:
   - component: {fileID: 1637770485}
   m_Layer: 0
   m_Name: PortalesCTA
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78817,7 +78310,7 @@ GameObject:
   - component: {fileID: 1640657039}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78875,7 +78368,7 @@ GameObject:
   - component: {fileID: 1643228066}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78959,7 +78452,7 @@ GameObject:
   - component: {fileID: 1647652124}
   m_Layer: 0
   m_Name: Colision (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79223,7 +78716,7 @@ GameObject:
   - component: {fileID: 1657068027}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79407,37 +78900,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &1658390634
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1658390635}
-  m_Layer: 0
-  m_Name: ControladorAtaque
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1658390635
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658390634}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.81, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1736705335}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1659638313
 GameObject:
   m_ObjectHideFlags: 0
@@ -79451,7 +78913,7 @@ GameObject:
   - component: {fileID: 1659638314}
   m_Layer: 0
   m_Name: ParedSupIzq (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79562,7 +79024,7 @@ GameObject:
   - component: {fileID: 1660939491}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79646,7 +79108,7 @@ GameObject:
   - component: {fileID: 1667882156}
   m_Layer: 0
   m_Name: Banca 1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79808,7 +79270,7 @@ GameObject:
   - component: {fileID: 1676401083}
   m_Layer: 0
   m_Name: Colision (10)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79866,7 +79328,7 @@ GameObject:
   - component: {fileID: 1676478023}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80092,7 +79554,7 @@ GameObject:
   - component: {fileID: 1691181511}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80177,7 +79639,7 @@ GameObject:
   - component: {fileID: 1696959861}
   m_Layer: 0
   m_Name: ParedSupIzq (8)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80287,7 +79749,7 @@ GameObject:
   - component: {fileID: 1700953051}
   m_Layer: 0
   m_Name: Bancas
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80327,7 +79789,7 @@ GameObject:
   - component: {fileID: 1703771382}
   m_Layer: 0
   m_Name: Arbusto (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80461,7 +79923,7 @@ GameObject:
   - component: {fileID: 1704283870}
   m_Layer: 0
   m_Name: Casa2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80512,7 +79974,7 @@ GameObject:
   - component: {fileID: 1705495429}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80560,7 +80022,7 @@ GameObject:
   - component: {fileID: 1708650710}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80755,7 +80217,7 @@ GameObject:
   - component: {fileID: 1714815041}
   m_Layer: 0
   m_Name: Gabinete2 (6)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80789,7 +80251,7 @@ GameObject:
   - component: {fileID: 1716483443}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80957,7 +80419,7 @@ GameObject:
   - component: {fileID: 1722586198}
   m_Layer: 0
   m_Name: Colision (22)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81048,7 +80510,7 @@ GameObject:
   - component: {fileID: 1724210300}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85031,8 +84493,8 @@ GameObject:
   - component: {fileID: 1736705330}
   - component: {fileID: 1736705337}
   - component: {fileID: 1736705338}
-  - component: {fileID: 1736705340}
   - component: {fileID: 1736705339}
+  - component: {fileID: 1736705340}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -85161,7 +84623,7 @@ Transform:
   m_LocalScale: {x: 0.9884, y: 0.9826, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1658390635}
+  - {fileID: 2029926669}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -85182,7 +84644,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1287879, y: 1.5454545}
+    oldSize: {x: 1.3375, y: 1.725}
     newSize: {x: 1.3375, y: 1.725}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -85228,14 +84690,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1736705329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 395296ec66976f6458445a3590bb47ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e1f390c16f530e44a60458ad4104e07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  proyectil: {fileID: 2209101581792816671, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-    type: 3}
+  controladorGolpe: {fileID: 2029926669}
+  radioGolpe: 0.8
+  "da\xF1oGolpe": 1
+  tiempoEntreAtaques: 1.2
   tiempoSigAtaque: 0
-  tiempoEntreAtaques: 1
-  puntoEmision: {fileID: 1658390635}
 --- !u!114 &1736705340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85245,14 +84707,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1736705329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1f390c16f530e44a60458ad4104e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 395296ec66976f6458445a3590bb47ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controladorGolpe: {fileID: 1658390635}
-  radioGolpe: 0.3
-  "da\xF1oGolpe": 1
-  tiempoEntreAtaques: 0.5
+  proyectil: {fileID: 2209101581792816671, guid: bdfba6d5f167ec94ab255131cef26dd6,
+    type: 3}
   tiempoSigAtaque: 0
+  tiempoEntreAtaques: 1
+  puntoEmision: {fileID: 2029926669}
 --- !u!1 &1741952463
 GameObject:
   m_ObjectHideFlags: 0
@@ -85265,7 +84727,7 @@ GameObject:
   - component: {fileID: 1741952465}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85350,7 +84812,7 @@ GameObject:
   - component: {fileID: 1742862594}
   m_Layer: 0
   m_Name: CTA
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85461,7 +84923,7 @@ GameObject:
   - component: {fileID: 1744060494}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85545,7 +85007,7 @@ GameObject:
   - component: {fileID: 1760924923}
   m_Layer: 0
   m_Name: Banca 1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85594,7 +85056,7 @@ GameObject:
   - component: {fileID: 1761079761}
   m_Layer: 0
   m_Name: Escritorio1 2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85660,7 +85122,7 @@ GameObject:
   - component: {fileID: 1763689676}
   m_Layer: 0
   m_Name: Escritorio1 (7)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85694,7 +85156,7 @@ GameObject:
   - component: {fileID: 1765237541}
   m_Layer: 0
   m_Name: Colision (40)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87397,7 +86859,7 @@ Transform:
   - {fileID: 525186425}
   - {fileID: 267711250}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1787746700
 GameObject:
@@ -87535,7 +86997,7 @@ GameObject:
   - component: {fileID: 1788841287}
   m_Layer: 0
   m_Name: Colision (23)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87677,7 +87139,7 @@ GameObject:
   - component: {fileID: 1796794816}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87945,37 +87407,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1805534352
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1805534353}
-  m_Layer: 0
-  m_Name: Punto2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1805534353
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805534352}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.29, y: 1.55, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2041636870}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1806230604
 GameObject:
   m_ObjectHideFlags: 0
@@ -87989,7 +87420,7 @@ GameObject:
   - component: {fileID: 1806230606}
   m_Layer: 0
   m_Name: Banca
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88132,7 +87563,7 @@ GameObject:
   - component: {fileID: 1823042615}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88216,7 +87647,7 @@ GameObject:
   - component: {fileID: 1823828784}
   m_Layer: 0
   m_Name: Colision (35)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88274,7 +87705,7 @@ GameObject:
   - component: {fileID: 1826682053}
   m_Layer: 0
   m_Name: ColisionesCTA
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88446,7 +87877,7 @@ GameObject:
   - component: {fileID: 1833246395}
   m_Layer: 0
   m_Name: Colision (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88503,7 +87934,7 @@ GameObject:
   - component: {fileID: 1837649710}
   m_Layer: 0
   m_Name: Gabinete2 (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88537,7 +87968,7 @@ GameObject:
   - component: {fileID: 1838801506}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88671,7 +88102,7 @@ GameObject:
   - component: {fileID: 1842934130}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88866,37 +88297,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &1873103305
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1873103306}
-  m_Layer: 0
-  m_Name: Punto1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1873103306
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1873103305}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.28, y: -0.85, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2041636870}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875260066
 GameObject:
   m_ObjectHideFlags: 0
@@ -88909,7 +88309,7 @@ GameObject:
   - component: {fileID: 1875260068}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88993,7 +88393,7 @@ GameObject:
   - component: {fileID: 1875816190}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89076,7 +88476,7 @@ GameObject:
   - component: {fileID: 1876790253}
   m_Layer: 0
   m_Name: Paredes
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92844,7 +92244,7 @@ GameObject:
   - component: {fileID: 1878489937}
   m_Layer: 0
   m_Name: PiedraG
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92956,7 +92356,7 @@ GameObject:
   - component: {fileID: 1879577393}
   m_Layer: 0
   m_Name: Banca1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93067,7 +92467,7 @@ GameObject:
   - component: {fileID: 1891409342}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93150,7 +92550,7 @@ GameObject:
   - component: {fileID: 1897014755}
   m_Layer: 0
   m_Name: Escritorio1 (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93183,7 +92583,7 @@ GameObject:
   - component: {fileID: 1898898074}
   m_Layer: 0
   m_Name: PortalesExp1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93330,7 +92730,7 @@ GameObject:
   - component: {fileID: 1904500460}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93414,7 +92814,7 @@ GameObject:
   - component: {fileID: 1905393898}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93499,7 +92899,7 @@ GameObject:
   - component: {fileID: 1907399643}
   m_Layer: 0
   m_Name: ParedInf
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93779,7 +93179,7 @@ GameObject:
   - component: {fileID: 1911513250}
   m_Layer: 0
   m_Name: Banca4 (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93889,7 +93289,7 @@ GameObject:
   - component: {fileID: 1916704360}
   m_Layer: 0
   m_Name: Gabinete2 (10)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93925,7 +93325,7 @@ GameObject:
   - component: {fileID: 1921435662}
   m_Layer: 0
   m_Name: PropsSal2
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94488,7 +93888,7 @@ GameObject:
   - component: {fileID: 1924349486}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94571,7 +93971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924696631}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 30, z: 0}
+  m_LocalPosition: {x: 120, y: 30, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -94579,8 +93979,8 @@ Transform:
   - {fileID: 368819755}
   - {fileID: 19574033}
   - {fileID: 1817629135}
-  m_Father: {fileID: 1068160905}
-  m_RootOrder: 20
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1927083775
 GameObject:
@@ -94594,7 +93994,7 @@ GameObject:
   - component: {fileID: 1927083777}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94678,7 +94078,7 @@ GameObject:
   - component: {fileID: 1927728873}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94762,7 +94162,7 @@ GameObject:
   - component: {fileID: 1937490557}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94847,7 +94247,7 @@ GameObject:
   - component: {fileID: 1938383920}
   m_Layer: 0
   m_Name: Totem1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94958,7 +94358,7 @@ GameObject:
   - component: {fileID: 1938892278}
   m_Layer: 0
   m_Name: Casa4
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95092,7 +94492,7 @@ GameObject:
   - component: {fileID: 1947550231}
   m_Layer: 0
   m_Name: Colision (31)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95150,7 +94550,7 @@ GameObject:
   - component: {fileID: 1948206069}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95209,7 +94609,7 @@ GameObject:
   - component: {fileID: 1950509357}
   m_Layer: 0
   m_Name: ParedSupIzq (10)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95404,7 +94804,7 @@ GameObject:
   - component: {fileID: 1954806841}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95496,7 +94896,7 @@ GameObject:
   - component: {fileID: 1963101434}
   m_Layer: 0
   m_Name: ParedSupIzq (12)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95609,7 +95009,7 @@ GameObject:
   - component: {fileID: 1970929572}
   m_Layer: 0
   m_Name: PropsCTA
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96318,7 +95718,7 @@ GameObject:
   - component: {fileID: 1974501981}
   m_Layer: 0
   m_Name: Arbusto (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96368,7 +95768,7 @@ GameObject:
   - component: {fileID: 1978264289}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96416,7 +95816,7 @@ GameObject:
   - component: {fileID: 1994420454}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96474,7 +95874,7 @@ GameObject:
   - component: {fileID: 1994884903}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96565,7 +95965,7 @@ GameObject:
   - component: {fileID: 1995396325}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96623,7 +96023,7 @@ GameObject:
   - component: {fileID: 2000324078}
   m_Layer: 0
   m_Name: Sprite (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96709,7 +96109,7 @@ GameObject:
   - component: {fileID: 2006933125}
   m_Layer: 0
   m_Name: PropsA200
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97287,7 +96687,7 @@ GameObject:
   - component: {fileID: 2013294315}
   m_Layer: 0
   m_Name: Escritorio1  4
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97321,7 +96721,7 @@ GameObject:
   - component: {fileID: 2022493477}
   m_Layer: 0
   m_Name: Colision (21)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97451,6 +96851,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2029926668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2029926669}
+  m_Layer: 0
+  m_Name: ControladorAtaque
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2029926669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029926668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1736705335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2041636869
 GameObject:
   m_ObjectHideFlags: 0
@@ -97474,18 +96905,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041636869}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6982334, y: 0.7758465, z: 0.24017051}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.6982317, y: 0.77584654, z: 0.24017051}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1873103306}
-  - {fileID: 1805534353}
-  - {fileID: 361789160}
-  - {fileID: 186986773}
-  - {fileID: 1007093510}
+  - {fileID: 410103889}
+  - {fileID: 1617745020}
+  - {fileID: 1462833017}
+  - {fileID: 1560336141}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2051870756
 GameObject:
@@ -97499,7 +96929,7 @@ GameObject:
   - component: {fileID: 2051870758}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97582,7 +97012,7 @@ GameObject:
   - component: {fileID: 2059861938}
   m_Layer: 0
   m_Name: Escritorio1 1
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97616,7 +97046,7 @@ GameObject:
   - component: {fileID: 2069510259}
   m_Layer: 0
   m_Name: ColisionesSal4
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97665,7 +97095,7 @@ GameObject:
   - component: {fileID: 2069797530}
   m_Layer: 0
   m_Name: Colision (12)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97722,9 +97152,10 @@ GameObject:
   - component: {fileID: 2076406141}
   - component: {fileID: 2076406143}
   - component: {fileID: 2076406142}
+  - component: {fileID: 2076406144}
   m_Layer: 0
   m_Name: JarInfDer  (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97823,6 +97254,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2076406144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076406140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &2080428893
 GameObject:
   m_ObjectHideFlags: 0
@@ -97849,7 +97296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080428893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.997, y: -7.030001, z: 0}
+  m_LocalPosition: {x: 0.02, y: -7.030001, z: 0}
   m_LocalScale: {x: 3.9937499, y: 0.7625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97980,7 +97427,7 @@ GameObject:
   - component: {fileID: 2086628408}
   m_Layer: 0
   m_Name: Colision (11)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98038,7 +97485,7 @@ GameObject:
   - component: {fileID: 2091627457}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98096,7 +97543,7 @@ GameObject:
   - component: {fileID: 2091676895}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98177,7 +97624,7 @@ GameObject:
   - component: {fileID: 2101505377}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98236,7 +97683,7 @@ GameObject:
   - component: {fileID: 2113499856}
   m_Layer: 0
   m_Name: ParedSupIzq (21)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98347,7 +97794,7 @@ GameObject:
   - component: {fileID: 2116710522}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98395,7 +97842,7 @@ GameObject:
   - component: {fileID: 2116810719}
   m_Layer: 0
   m_Name: Colision
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98452,7 +97899,7 @@ GameObject:
   - component: {fileID: 2117847681}
   m_Layer: 0
   m_Name: Escritorio1 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98539,7 +97986,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2119723730
 GameObject:
@@ -98553,7 +98000,7 @@ GameObject:
   - component: {fileID: 2119723732}
   m_Layer: 0
   m_Name: Colision (16)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98848,7 +98295,7 @@ Transform:
   - {fileID: 675653913}
   - {fileID: 1270662473}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2142576280
 GameObject:
@@ -98921,7 +98368,7 @@ GameObject:
   - component: {fileID: 2143021428}
   m_Layer: 0
   m_Name: Banca4 (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99020,77 +98467,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &2874473102340284774
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2209101581792816671, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_Name
-      value: Municion
-      objectReference: {fileID: 0}
-    - target: {fileID: 2209101581792816671, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326449644636555083, guid: b4222cfff79346a4ea42b9f3bf44f06e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b4222cfff79346a4ea42b9f3bf44f06e, type: 3}

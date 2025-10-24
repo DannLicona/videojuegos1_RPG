@@ -14,7 +14,8 @@ public class Enemigo : MonoBehaviour
     public Transform[] puntosRuta;
     private int indiceRuta = 0;
     private bool playerEnRango = false;
-    [SerializeField] private float distanciaDeteccionPlayer; //Ajuste distancia en la que el enemigo detecte al player
+    private bool estabaSiguiendo = false;
+    [SerializeField] private float distanciaDeteccionPlayer;
     private SpriteRenderer spriteEnemigo;
     private Transform mirarHacia;
 
@@ -30,12 +31,7 @@ public class Enemigo : MonoBehaviour
         agente.updateRotation = false;
         agente.updateUpAxis = false;
 
-        // Buscar al jugador activo
         GameObject jugador = GameObject.FindWithTag("Player");
-        if (jugador == null)
-        {
-            jugador = GameObject.FindWithTag("Player2");
-        }
 
         if (jugador != null)
         {
@@ -43,32 +39,42 @@ public class Enemigo : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("No se encontr� ning�n jugador activo en la escena.");
+            Debug.LogWarning("No se encontro ningun jugador activo en la escena.");
+        }
+
+        if (puntosRuta != null && puntosRuta.Length > 0)
+        {
+            agente.SetDestination(puntosRuta[indiceRuta].position);
+            mirarHacia = puntosRuta[indiceRuta];
         }
     }
 
     void Update()
     {
         this.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
-        float distancia = Vector3.Distance(personaje.position, this.transform.position);
-        if (this.transform.position == puntosRuta[indiceRuta].position)
+
+        float distancia = personaje != null ? Vector3.Distance(personaje.position, this.transform.position) : float.MaxValue;
+
+        playerEnRango = distancia < distanciaDeteccionPlayer;
+
+        if (!playerEnRango && estabaSiguiendo)
         {
-            if (indiceRuta < puntosRuta.Length - 1)
+            estabaSiguiendo = false;
+            if (puntosRuta != null && puntosRuta.Length > 0)
+                agente.SetDestination(puntosRuta[indiceRuta].position);
+        }
+
+        if (!playerEnRango && puntosRuta != null && puntosRuta.Length > 0)
+        {
+            float distPunto = Vector3.Distance(transform.position, puntosRuta[indiceRuta].position);
+            if (distPunto < 0.3f)
             {
                 indiceRuta++;
+                if (indiceRuta >= puntosRuta.Length)
+                    indiceRuta = 0;
+                agente.SetDestination(puntosRuta[indiceRuta].position);
+                mirarHacia = puntosRuta[indiceRuta];
             }
-            else if (indiceRuta == puntosRuta.Length - 1)
-            {
-                indiceRuta = 0;
-            }
-        }
-        if (distancia < distanciaDeteccionPlayer)
-        {
-            playerEnRango = true;
-        }
-        else
-        {
-            playerEnRango = false;
         }
 
         if (tiempoSigAtaque > 0)
@@ -86,38 +92,43 @@ public class Enemigo : MonoBehaviour
 
     private void SigueAlPlayer(bool playerEnRango)
     {
-        if (playerEnRango)
+        if (playerEnRango && personaje != null)
         {
             agente.SetDestination(personaje.position);
             mirarHacia = personaje;
-        } else
+            estabaSiguiendo = true;
+        }
+        else
         {
-            agente.SetDestination(puntosRuta[indiceRuta].position);
-            mirarHacia = puntosRuta[indiceRuta];
+            if (puntosRuta != null && puntosRuta.Length > 0)
+            {
+                mirarHacia = puntosRuta[indiceRuta];
+            }
         }
     }
 
     private void RotaEnemigo()
     {
+        if (mirarHacia == null) return;
+
         if (this.transform.position.x > mirarHacia.position.x)
         {
             spriteEnemigo.flipX = true;
-            Debug.Log("FipX");
-        } else
+        }
+        else
         {
             spriteEnemigo.flipX = false;
-            Debug.Log("Sin FipX");
         }
     }
 
     private void OnTriggerEnter2D(Collider2D obj)
     {
-        if (obj.tag == "Player" || obj.tag == "Player2") {
+        if (obj.tag == "Player")
+        {
             tiempoSigAtaque = frecAtaque;
             iniciaConteo = Time.time;
             obj.transform.GetComponentInChildren<VidasPlayer>().TomarDaño(1);
         }
-        
     }
 
     public void TomarDaño(int daño)
@@ -129,3 +140,4 @@ public class Enemigo : MonoBehaviour
         }
     }
 }
+

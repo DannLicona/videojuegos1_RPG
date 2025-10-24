@@ -36,11 +36,11 @@ public class MovPlayerDuke : MonoBehaviour
         {
             dirAtaque = 4;
         }
-        if (MovX == -1)
+        if (MovY == -1)
         {
             dirAtaque = 1;
         }
-        if (MovX == 1)
+        if (MovY == 1)
         {
             dirAtaque = 2;
         }
