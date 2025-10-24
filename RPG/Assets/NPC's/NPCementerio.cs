@@ -7,7 +7,7 @@ public class NPCementerio : MonoBehaviour
     public GameObject txtDialogo;
     public static int numVisitas;
 
-    public Sprite cemetxt1;
+    public Sprite cemetxt1, cemetxt2, cemetxt3;
 
     void Start()
     {
@@ -29,7 +29,10 @@ public class NPCementerio : MonoBehaviour
                 txtDialogo.GetComponent<SpriteRenderer>().sprite = cemetxt1;
                 break;
             case 1:
-                  txtDialogo.GetComponent<SpriteRenderer>().sprite = cemetxt1;
+                  txtDialogo.GetComponent<SpriteRenderer>().sprite = cemetxt2;
+                break;
+            case 2:
+                  txtDialogo.GetComponent<SpriteRenderer>().sprite = cemetxt3;
                 break;
         }
     }

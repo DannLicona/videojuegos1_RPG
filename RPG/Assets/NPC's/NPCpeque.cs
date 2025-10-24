@@ -7,7 +7,7 @@ public class NPCpeque : MonoBehaviour
     public GameObject txtDialogo;
     public static int numVisitas;
 
-    public Sprite pequetxt1;
+    public Sprite pequetxt1, pequetxt2, pequetxt3;
 
     void Start()
     {
@@ -29,7 +29,10 @@ public class NPCpeque : MonoBehaviour
                 txtDialogo.GetComponent<SpriteRenderer>().sprite = pequetxt1;
                 break;
             case 1:
-                  txtDialogo.GetComponent<SpriteRenderer>().sprite = pequetxt1;
+                  txtDialogo.GetComponent<SpriteRenderer>().sprite = pequetxt2;
+                break;
+            case 2:
+                  txtDialogo.GetComponent<SpriteRenderer>().sprite = pequetxt3;
                 break;
         }
     }

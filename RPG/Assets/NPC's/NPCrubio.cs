@@ -7,7 +7,7 @@ public class NPCrubio : MonoBehaviour
     public GameObject txtDialogo;
     public static int numVisitas;
 
-    public Sprite rubiotxt1, rubiotxt2;
+    public Sprite rubiotxt1, rubiotxt2, rubiotxt3;
 
     void Start()
     {
@@ -30,6 +30,9 @@ public class NPCrubio : MonoBehaviour
                 break;
             case 1:
                   txtDialogo.GetComponent<SpriteRenderer>().sprite = rubiotxt2;
+                break;
+            case 2:
+                  txtDialogo.GetComponent<SpriteRenderer>().sprite = rubiotxt3;
                 break;
         }
     }

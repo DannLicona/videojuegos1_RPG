@@ -578,7 +578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16015966}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 94.04, y: 33.06, z: 0.028914431}
+  m_LocalPosition: {x: 93.95, y: 33.06, z: 0.028914431}
   m_LocalScale: {x: 1.5760081, y: 1.7220458, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -653,6 +653,7 @@ MonoBehaviour:
   txtDialogo: {fileID: 161124161}
   rubiotxt1: {fileID: 21300000, guid: 63d280093cb6d5b4e8641a141200160e, type: 3}
   rubiotxt2: {fileID: 21300000, guid: 0d14d2619c4e89a43971e72cd4cfa78c, type: 3}
+  rubiotxt3: {fileID: 21300000, guid: e8c4b3fc9a8661a48b2a9e53323a122c, type: 3}
 --- !u!61 &16015970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5739,7 +5740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161124161}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.47, y: 1.3, z: 0}
+  m_LocalPosition: {x: 2.2, y: 1.3, z: 0}
   m_LocalScale: {x: 1.9356745, y: 1.2567656, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24342,6 +24343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtDialogo: {fileID: 752842765}
   cuernostxt1: {fileID: 21300000, guid: a1a526de3d22ec548adaf1d4434f02cc, type: 3}
+  cuernostxt2: {fileID: 21300000, guid: 91dd191c10efb764581c034c5670c1b2, type: 3}
+  cuernostxt3: {fileID: 21300000, guid: db8e08c27a311144a8713cca90902826, type: 3}
 --- !u!61 &427320778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29773,6 +29776,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtDialogo: {fileID: 1392355728}
   cemetxt1: {fileID: 21300000, guid: 1dc30701747a7d14899e4e289f1630ac, type: 3}
+  cemetxt2: {fileID: 21300000, guid: a24b4e10e589ab441b43a15947efa929, type: 3}
+  cemetxt3: {fileID: 21300000, guid: 5df23d8fcb91a1a4bbd249aded55ccf4, type: 3}
 --- !u!61 &513777380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42172,7 +42177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752842765}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1, y: 0.7, z: 0}
+  m_LocalPosition: {x: -1.84, y: 1.13, z: 0}
   m_LocalScale: {x: 1.6145848, y: 1.1860117, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -52311,6 +52316,7 @@ MonoBehaviour:
   txtDialogo: {fileID: 1269886705}
   naranjatxt1: {fileID: 21300000, guid: 7db642c113b14414d86cdf866e471a25, type: 3}
   naranjatxt2: {fileID: 21300000, guid: 94d36c82f27f5ec4d82fccb021ef6744, type: 3}
+  naranjatxt3: {fileID: 21300000, guid: 7ea1072aca5bd904684c741e43c42c4f, type: 3}
 --- !u!61 &1053326146
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53935,6 +53941,7 @@ MonoBehaviour:
   txtDialogo: {fileID: 1787746700}
   proftxt1: {fileID: 21300000, guid: 84c1e8d6ed252c243af0b1c1e79bd06e, type: 3}
   proftxt2: {fileID: 21300000, guid: f1bf00a9335601b4db00a3b62857643f, type: 3}
+  proftxt3: {fileID: 21300000, guid: 470673b98de019f41a9dada6e5297805, type: 3}
 --- !u!61 &1085697833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64460,7 +64467,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269886705}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1.6059307, z: 0}
+  m_LocalPosition: {x: -5.42, y: 1.6059307, z: 0}
   m_LocalScale: {x: 1.8887181, y: 1.2644585, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -71268,7 +71275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392355728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9, y: -0.98, z: 0}
+  m_LocalPosition: {x: -0.17, y: -0.98, z: 0}
   m_LocalScale: {x: 2.1711185, y: 1.3568355, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84640,7 +84647,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.017090887, y: 0}
+  m_Offset: {x: 0.0003592372, y: 0.029254138}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -84651,7 +84658,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1208773, y: 1.725}
+  m_Size: {x: 0.9696487, y: 1.4558626}
   m_EdgeRadius: 0
 --- !u!114 &1736705337
 MonoBehaviour:
@@ -98206,6 +98213,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtDialogo: {fileID: 1365448717}
   pequetxt1: {fileID: 21300000, guid: 35ca067eafc377c4e83d719a55f9fd8a, type: 3}
+  pequetxt2: {fileID: 21300000, guid: aa6106435d04e0d4cba686e0c6fdea42, type: 3}
+  pequetxt3: {fileID: 21300000, guid: 80072d123b28eb747afa7f897d7ac1ea, type: 3}
 --- !u!61 &2132037793
 BoxCollider2D:
   m_ObjectHideFlags: 0

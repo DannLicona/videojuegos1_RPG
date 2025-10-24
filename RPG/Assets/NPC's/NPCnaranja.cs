@@ -7,7 +7,7 @@ public class NPCnaranja : MonoBehaviour
     public GameObject txtDialogo;
     public static int numVisitas;
 
-    public Sprite naranjatxt1, naranjatxt2;
+    public Sprite naranjatxt1, naranjatxt2, naranjatxt3;
 
     void Start()
     {
@@ -30,6 +30,9 @@ public class NPCnaranja : MonoBehaviour
                 break;
             case 1:
                   txtDialogo.GetComponent<SpriteRenderer>().sprite = naranjatxt2;
+                break;
+            case 2:
+                  txtDialogo.GetComponent<SpriteRenderer>().sprite = naranjatxt3;
                 break;
         }
     }
