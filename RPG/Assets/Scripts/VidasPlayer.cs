@@ -22,13 +22,13 @@ public class VidasPlayer : MonoBehaviour
         gameOver.SetActive(false);
     }
 
-    public void TomarDaño(int daño)
+    public void TomarDaÃ±o(int daÃ±o)
     {
         if (vida > 0 && puedePerderVida == 1)
         {
             puedePerderVida = 0;
-            vida -= daño;
-            Debug.Log($"El jugador recibió {daño} de daño! Vida actual: {vida}");
+            vida -= daÃ±o;
+            Debug.Log($"El jugador recibio {daÃ±o} de daÃ±o! Vida actual: {vida}");
             DibujaVida(vida);
         }
 
@@ -46,8 +46,9 @@ public class VidasPlayer : MonoBehaviour
     }
 
     IEnumerator EjecutaMuerte()
-    {
-        yield return new WaitForSeconds(1.2f); // Tiempo para mostrar la pantalla Game Over
-        gameOver.SetActive(true);
-    }
+{
+    yield return new WaitForSeconds(1); // Puedes ajustar este tiempo si quieres
+    SceneManager.LoadScene("GameOver");
+}
+
 }
