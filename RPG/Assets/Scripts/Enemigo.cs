@@ -6,7 +6,12 @@ using UnityEngine.AI;
 
 public class Enemigo : MonoBehaviour
 {
-    public static int vidaEnemigo = 1;
+    [Header("Configuración de enemigo")]
+    [SerializeField] private int vidaInicial = 1;          // Vida modificable desde el inspector
+    [SerializeField] private float velocidad = 3.5f;       // Velocidad modificable desde el inspector
+    [SerializeField] private int dañoAlPlayer = 1;        // Daño al player modificable desde el inspector
+
+    private int vidaEnemigo;
     private float frecAtaque = 2.5f, tiempoSigAtaque = 0, iniciaConteo;
 
     public Transform personaje;
@@ -27,9 +32,10 @@ public class Enemigo : MonoBehaviour
 
     void Start()
     {
-        vidaEnemigo = 1;
+        vidaEnemigo = vidaInicial;           // Se inicializa con la vida del inspector
         agente.updateRotation = false;
         agente.updateUpAxis = false;
+        agente.speed = velocidad;            // Se aplica la velocidad del inspector
 
         GameObject jugador = GameObject.FindWithTag("Player");
 
@@ -127,7 +133,7 @@ public class Enemigo : MonoBehaviour
         {
             tiempoSigAtaque = frecAtaque;
             iniciaConteo = Time.time;
-            obj.transform.GetComponentInChildren<VidasPlayer>().TomarDaño(1);
+            obj.transform.GetComponentInChildren<VidasPlayer>().TomarDaño(dañoAlPlayer); // daño desde inspector
         }
     }
 
@@ -140,4 +146,5 @@ public class Enemigo : MonoBehaviour
         }
     }
 }
+
 
