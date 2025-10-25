@@ -3,7 +3,13 @@ guid: 7c06c2fcfb0d5d243897e89d925a90bc
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - txtDialogo: {instanceID: 0}
+  - proftxt1: {instanceID: 0}
+  - proftxt2: {instanceID: 0}
+  - proftxt3: {instanceID: 0}
+  - sonidoAparicionDialogo: {fileID: 8300000, guid: 8b5b32b7119fc434eb23f3d91585db8b,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

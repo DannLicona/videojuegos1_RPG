@@ -5,8 +5,33 @@ using UnityEngine;
 public class MovCamara : MonoBehaviour
 {
     public Camera camara;
+
+    // --- NUEVO: Variables para el sonido ---
+    public AudioClip sonidoSalon; // Arrastra tu sonido de portal de salón aquí
+    private AudioSource audioSource;
+    // ------------------------------------
+
+    // --- NUEVO: Añade la función Start() ---
+    void Start()
+    {
+        // Obtenemos el componente AudioSource del jugador
+        audioSource = GetComponent<AudioSource>();
+    }
+    // -----------------------------------
+
     private void OnTriggerEnter2D(Collider2D obj)
     {
+        // --- NUEVO: Lógica de Sonido ---
+        // Comprueba si la etiqueta del objeto EMPIEZA con "portals"
+        if (obj.gameObject.tag.StartsWith("portals") && sonidoSalon != null)
+        {
+            // Reproduce el sonido de salón una vez
+            audioSource.PlayOneShot(sonidoSalon);
+        }
+        // --- FIN Lógica de Sonido ---
+
+
+        // --- Tu código original de teletransporte ---
         if (obj.gameObject.tag == "portal1")
         {
             Vector3 posicioncamara = new Vector3(29.8f, -0.3f, -10);

@@ -9,6 +9,10 @@ public class NPC : MonoBehaviour
 
     public Sprite proftxt1, proftxt2, proftxt3;
 
+    // --- NUEVO: Añade esta línea ---
+    // Arrastra aquí el sonido que quieres que suene al activarse el diálogo
+    public AudioClip sonidoAparicionDialogo; 
+
     void Start()
     {
         txtDialogo.SetActive(false);
@@ -19,6 +23,18 @@ public class NPC : MonoBehaviour
     {
         if (obj.tag == "Player")
         {
+            // --- NUEVO: Añade esta comprobación ---
+            // Si el diálogo NO estaba activo, reproduce el sonido.
+            // Esto evita que el sonido se repita si el jugador
+            // sale y entra rápido del trigger.
+            if (txtDialogo.activeSelf == false && sonidoAparicionDialogo != null)
+            {
+                // Reproduce el sonido en la posición del NPC
+                AudioSource.PlayClipAtPoint(sonidoAparicionDialogo, transform.position);
+            }
+            // ------------------------------------
+
+            // Tu código original
             txtDialogo.SetActive(true);
             EscribeDialogo();
             numVisitas++;
@@ -36,6 +52,12 @@ public class NPC : MonoBehaviour
                 txtDialogo.GetComponent<SpriteRenderer>().sprite = proftxt2;
                 break;
             case 2:
+                txtDialogo.GetComponent<SpriteRenderer>().sprite = proftxt3;
+                break;
+            
+            // --- Recomendación ---
+            // Añade un 'default' para que no falle si 'numVisitas' es > 2
+            default:
                 txtDialogo.GetComponent<SpriteRenderer>().sprite = proftxt3;
                 break;
         }

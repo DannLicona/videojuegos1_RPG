@@ -13,6 +13,11 @@ public class VidasPlayer : MonoBehaviour
     private const int vidasINI = 5;
     public static int puedePerderVida = 1;
 
+    // --- NUEVO: Variables para el sonido ---
+    public AudioClip sonidoDolor; // Arrastra tu sonido de daño aquí
+    private AudioSource audioSource;
+    // ------------------------------------
+
 
     void Start()
     {
@@ -20,12 +25,24 @@ public class VidasPlayer : MonoBehaviour
         haMuerto = false;
         vida = vidasINI;
         gameOver.SetActive(false);
+
+        // --- NUEVO: Obtener el AudioSource ---
+        audioSource = GetComponent<AudioSource>();
+        // -----------------------------------
     }
 
     public void TomarDaño(int daño)
     {
         if (vida > 0 && puedePerderVida == 1)
         {
+            // --- NUEVO: Reproducir sonido ---
+            // Justo aquí, antes de perder la vida
+            if (sonidoDolor != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(sonidoDolor);
+            }
+            // ------------------------------
+
             puedePerderVida = 0;
             vida -= daño;
             Debug.Log($"El jugador recibio {daño} de daño! Vida actual: {vida}");
@@ -49,9 +66,8 @@ public class VidasPlayer : MonoBehaviour
     }
 
     IEnumerator EjecutaMuerte()
-{
-    yield return new WaitForSeconds(1); // Puedes ajustar este tiempo si quieres
-    SceneManager.LoadScene("GameOver");
-}
-
+    {
+        yield return new WaitForSeconds(1); // Puedes ajustar este tiempo si quieres
+        SceneManager.LoadScene("GameOver");
+    }
 }
