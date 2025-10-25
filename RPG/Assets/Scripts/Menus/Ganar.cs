@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CreditosMenu : MonoBehaviour
+public class Ganar : MonoBehaviour
 {
 
     public void VolverAlMenu()
