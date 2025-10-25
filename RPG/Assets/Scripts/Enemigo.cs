@@ -7,9 +7,9 @@ using UnityEngine.AI;
 public class Enemigo : MonoBehaviour
 {
     [Header("Configuración de enemigo")]
-    [SerializeField] private int vidaInicial = 1;          // Vida modificable desde el inspector
-    [SerializeField] private float velocidad = 3.5f;       // Velocidad modificable desde el inspector
-    [SerializeField] private int dañoAlPlayer = 1;        // Daño al player modificable desde el inspector
+    [SerializeField] private int vidaInicial = 1;
+    [SerializeField] private float velocidad = 3.5f;
+    [SerializeField] private int dañoAlPlayer = 1;
 
     private int vidaEnemigo;
     private float frecAtaque = 2.5f, tiempoSigAtaque = 0, iniciaConteo;
@@ -23,19 +23,21 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private float distanciaDeteccionPlayer;
     private SpriteRenderer spriteEnemigo;
     private Transform mirarHacia;
+    private Animator anim;
 
     private void Awake()
     {
         agente = GetComponent<NavMeshAgent>();
         spriteEnemigo = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     void Start()
     {
-        vidaEnemigo = vidaInicial;           // Se inicializa con la vida del inspector
+        vidaEnemigo = vidaInicial;
         agente.updateRotation = false;
         agente.updateUpAxis = false;
-        agente.speed = velocidad;            // Se aplica la velocidad del inspector
+        agente.speed = velocidad;
 
         GameObject jugador = GameObject.FindWithTag("Player");
 
@@ -60,8 +62,13 @@ public class Enemigo : MonoBehaviour
         this.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
 
         float distancia = personaje != null ? Vector3.Distance(personaje.position, this.transform.position) : float.MaxValue;
-
         playerEnRango = distancia < distanciaDeteccionPlayer;
+
+        // Si está lejos o ya no atacando → volver a caminar
+        if (!playerEnRango && anim != null && !anim.GetCurrentAnimatorStateInfo(0).IsName("ArdillaAtaque"))
+        {
+            anim.SetBool("Caminando", true);
+        }
 
         if (!playerEnRango && estabaSiguiendo)
         {
@@ -119,21 +126,38 @@ public class Enemigo : MonoBehaviour
 
         if (this.transform.position.x > mirarHacia.position.x)
         {
-            spriteEnemigo.flipX = true;
+            spriteEnemigo.flipX = false;
         }
         else
         {
-            spriteEnemigo.flipX = false;
+            spriteEnemigo.flipX = true;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D obj)
     {
-        if (obj.tag == "Player")
+        if (obj.CompareTag("Player") && anim != null)
         {
+            // Al colisionar: reproducir animación de ataque primero
+            anim.SetBool("Caminando", false);
+            anim.SetTrigger("Atacando");
+
+            // Guardar referencia al player temporalmente
+            personaje = obj.transform;
+
+            // Inicia conteo de ataque (para evitar spam)
             tiempoSigAtaque = frecAtaque;
             iniciaConteo = Time.time;
-            obj.transform.GetComponentInChildren<VidasPlayer>().TomarDaño(dañoAlPlayer); // daño desde inspector
+        }
+    }
+
+    public void AplicarDaño()
+    {
+        if (personaje != null)
+        {
+            var vida = personaje.GetComponentInChildren<VidasPlayer>();
+            if (vida != null)
+                vida.TomarDaño(dañoAlPlayer);
         }
     }
 
@@ -142,9 +166,16 @@ public class Enemigo : MonoBehaviour
         vidaEnemigo -= daño;
         if (vidaEnemigo <= 0)
         {
-            Destroy(gameObject);
+            if (anim != null)
+            {
+                anim.SetTrigger("Muerto");
+                agente.isStopped = true;
+            }
         }
     }
+
+    public void DestruirEnemigo()
+    {
+        Destroy(gameObject);
+    }
 }
-
-

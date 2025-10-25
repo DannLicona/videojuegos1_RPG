@@ -39,10 +39,13 @@ public class VidasPlayer : MonoBehaviour
         }
     }
 
-    private void DibujaVida(int vida)
+    public void DibujaVida(int vida)
     {
-        RectTransform transformImagen = fondoVida.GetComponent<RectTransform>();
-        transformImagen.sizeDelta = new Vector2(anchoVidasPlayer * (float)vida / (float)vidasINI, transformImagen.sizeDelta.y);
+        if (vida <= vidasINI)
+        {
+            RectTransform transformImagen = fondoVida.GetComponent<RectTransform>();
+            transformImagen.sizeDelta = new Vector2(anchoVidasPlayer * (float)vida / (float)vidasINI, transformImagen.sizeDelta.y);
+        }
     }
 
     IEnumerator EjecutaMuerte()
